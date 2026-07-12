@@ -23,61 +23,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_4|3.3MB/s
-  password: rihjnjl3qsfr7u15
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: '8080'
-  server: 45.39.33.174
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_5|1.8MB/s
+  name: 🇺🇸US_3|2.1MB/s
   network: ws
   password: '!!str 666'
   port: '443'
-  server: 149.248.7.25
+  server: 45.63.89.102
   skip-cert-verify: false
   sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- client-fingerprint: chrome
-  name: 🇺🇸US_6|2.1MB/s
-  network: ws
-  password: '!!str 666'
-  port: '443'
-  server: 207.246.97.245
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- client-fingerprint: chrome
-  name: 🇺🇸US_7|1.6MB/s
-  network: ws
-  password: '!!str 666'
-  port: '443'
-  server: 149.28.89.69
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
 - name: US_speednode_0063
   network: ws
