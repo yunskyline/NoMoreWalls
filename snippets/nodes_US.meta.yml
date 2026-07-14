@@ -31,6 +31,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- encryption: none
+  name: 🇺🇸US_1|1.9MB/s
+  network: ws
+  port: '8442'
+  server: 45.39.12.165
+  type: vless
+  udp: true
+  uuid: e0bced99-604f-41d1-8c0c-467e5838c33f
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: US_speednode_0055
