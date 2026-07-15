@@ -1,16 +1,1 @@
-proxies:
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇨🇦CA_1|2.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: dalyPgxW_YMUf1O3cgNWc-3XDeShAzU43307V4rBr3s
-    short-id: '!!str 64597fca'
-  server: 20.151.233.69
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b08b1c4-342a-4992-ac5f-5b9eff2327a0
-  xudp: true
+proxies: []
