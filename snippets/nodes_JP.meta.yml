@@ -30,3 +30,103 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- encryption: none
+  name: 🇯🇵JP_1|2.5MB/s
+  network: ws
+  port: '8880'
+  server: cf7.466688.xyz
+  type: vless
+  udp: true
+  uuid: 11046a7c-fa1b-4653-ab87-400feb465540
+  ws-opts:
+    headers:
+      Host: nameless-poetry-12fb.8-0a2.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_2|4.0MB/s
+  network: tcp
+  port: '2096'
+  reality-opts:
+    public-key: xEMm08RoX-QUA4FF94lAOvDcKBWJhkHjj8egtENeYnw
+    short-id: '!!str '
+  server: 38.226.195.144
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7fcad981-da4c-4017-9189-c90cc2bd3ff2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_3|4.9MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: real-cardinal.rooster465.autos
+  skip-cert-verify: false
+  sni: real-cardinal.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|6.9MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: easy-barnacle.rooster465.autos
+  skip-cert-verify: false
+  sni: easy-barnacle.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_5|5.4MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: thankful-mustang.rooster465.autos
+  skip-cert-verify: false
+  sni: thankful-mustang.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_6|5.4MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: skilled-lioness.rooster465.autos
+  skip-cert-verify: false
+  sni: skilled-lioness.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_7|3.7MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: gentle-honeybee.rooster465.autos
+  skip-cert-verify: false
+  sni: gentle-honeybee.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_8|4.7MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: upright-rhino.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-rhino.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_9|5.5MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: darling-mongrel.rooster465.autos
+  skip-cert-verify: false
+  sni: darling-mongrel.rooster465.autos
+  type: trojan
+  udp: true

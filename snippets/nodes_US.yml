@@ -23,25 +23,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_8|2.1MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_10|2.7MB/s
-  password: amazonskr05
-  port: '443'
-  server: 13.59.31.133
-  type: ss
-  udp: true
 - name: US_speednode_0063
   network: ws
   password: Mitivpn

@@ -203,47 +203,94 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 🇰🇷KR_1|3.4MB/s
-  password: CF68213490
-  port: '443'
-  server: smooth-lark.rooster465.autos
+  name: 🇸🇬SG_2|2.0MB/s
+  network: raw
+  password: gcuCpQfaiVeDBdWG
+  port: '19128'
+  server: jpbgp.netvigor.cc
   skip-cert-verify: false
+  sni: yazhou10.dynu.net
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_2|4.0MB/s
+  name: 🇯🇵JP_3|4.9MB/s
+  network: tcp
   password: CF68213490
   port: '443'
-  server: smooth-lark.rooster465.autos
+  server: real-cardinal.rooster465.autos
   skip-cert-verify: false
-  sni: smooth-lark.rooster465.autos
+  sni: real-cardinal.rooster465.autos
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷TR_1|2.6MB/s
-  password: P1prOtc_2BqoxiqfZhJnbEMwOBF0howV
-  port: '1310'
-  server: tu.k44lawm.ir
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_8|2.1MB/s
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|6.9MB/s
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_10|2.7MB/s
-  password: amazonskr05
+  password: CF68213490
   port: '443'
-  server: 13.59.31.133
-  type: ss
+  server: easy-barnacle.rooster465.autos
+  skip-cert-verify: false
+  sni: easy-barnacle.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_5|5.4MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: thankful-mustang.rooster465.autos
+  skip-cert-verify: false
+  sni: thankful-mustang.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_6|5.4MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: skilled-lioness.rooster465.autos
+  skip-cert-verify: false
+  sni: skilled-lioness.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_7|3.7MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: gentle-honeybee.rooster465.autos
+  skip-cert-verify: false
+  sni: gentle-honeybee.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_8|4.7MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: upright-rhino.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-rhino.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_9|5.5MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: darling-mongrel.rooster465.autos
+  skip-cert-verify: false
+  sni: darling-mongrel.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_7|3.7MB/s
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: sacred-treefrog.rooster465.autos
+  skip-cert-verify: false
+  sni: sacred-treefrog.rooster465.autos
+  type: trojan
   udp: true
 - name: AE_speednode_0001
   network: ws
