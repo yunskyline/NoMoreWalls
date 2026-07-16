@@ -31,106 +31,80 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_1|1.8MB/s
-  network: ws
+- client-fingerprint: chrome
+  name: 🇺🇸US_1|3.3MB/s
+  network: tcp
+  password: CF68213490
   port: '443'
-  server: marzban-node-production-7017.up.railway.app
-  servername: marzban-node-production-7017.up.railway.app
-  tls: true
-  type: vless
+  server: polite-coyote.rooster465.autos
+  skip-cert-verify: false
+  sni: polite-coyote.rooster465.autos
+  type: trojan
   udp: true
-  uuid: e3b61686-574f-4c57-b016-0e6d060f0b4f
-  ws-opts:
-    headers:
-      Host: marzban-node-production-7017.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /vless
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_2|2.2MB/s
-  network: ws
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|2.6MB/s
+  network: tcp
+  password: KV63147582
   port: '443'
-  server: 198.202.211.1
-  servername: sinavm3.soft10.ir
-  tls: true
-  type: vless
+  server: popular-meerkat.rooster465.autos
+  skip-cert-verify: false
+  sni: popular-meerkat.rooster465.autos
+  type: trojan
   udp: true
-  uuid: 963c91fc-1ce7-4fc7-806f-0a2e7b03bfee
-  ws-opts:
-    headers:
-      Host: sinavm3.soft10.ir
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸US_3|2.1MB/s
+  name: 🇺🇸US_3|1.9MB/s
   network: tcp
-  port: '40082'
+  port: '16016'
   reality-opts:
-    public-key: GBCcf9j7irjlYN4Z5SW5ssP9ACHCnTvHk8PI9LHkqmI
-    short-id: '!!str d32620c540976780'
-  server: 159.75.20.13
-  servername: www.cloudflare.com
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 67.220.73.204
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 26bb3a99-4583-4744-bb8e-a5c823ad29e9
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
   xudp: true
-- name: 🇺🇸US_4|2.7MB/s
-  network: ws
-  port: 443
-  server: 104.19.33.83
-  servername: ourfast.ccwu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb978279-0a28-4045-8258-e9ab97deaf2b
-  ws-opts:
-    headers:
-      Host: ourfast.ccwu.cc
-    path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_5|3.4MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: '!!str 43dcff53849b81e6'
-  server: 89.105.219.132
-  servername: nl.quattro-tech.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
-  xudp: true
-- name: 🇺🇸US_6|1.7MB/s
+- name: 🇺🇸US_4|2.6MB/s
   network: ws
   port: '2095'
-  server: au273g4s.cf.3666888.xyz
+  server: www.fbi.gov
+  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
   type: vless
   udp: true
-  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: 7cflukl1.cnm.qzz.io
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /sub
+      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
   xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_5|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: kG6zs_B1ZlZ5kjeC0WWPSz4B60vk_VeWj_WYsl2mGBw
+    short-id: '!!str 8a0b9c6d'
+  server: 185.33.84.173
+  servername: cdn-up.perecbass.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692
+  xudp: true
+- name: 🇺🇸US_6|2.5MB/s
+  password: ''
+  port: '443'
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: US_speednode_0055
