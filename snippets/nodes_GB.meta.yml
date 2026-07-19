@@ -1,56 +1,73 @@
 proxies:
-- auth: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  name: 🇬🇧GB_1|1.6MB/s
-  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: 8443
-  server: sw02.auragg.org
-  skip-cert-verify: true
-  sni: sw02.auragg.org
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇬🇧GB_2|2.0MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: VmBEjLUpiEnoNIaPNGDfVPIOzH_ktSDdsGGAvissxgI
-    short-id: '!!str '
-  server: 2.26.82.237
-  servername: speed.cloudflare.com
-  tls: true
+- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
   type: vless
-  udp: true
-  uuid: 906be882-7f16-47c3-8702-59db2ada9688
-  xudp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: 'B - 🇬🇧 GB 04 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.135.169.180
+  type: ss
 - client-fingerprint: chrome
   encryption: none
-  name: 🇬🇧GB_3|2.2MB/s
+  name: 🇬🇧GB_3|2.5MB/s
   network: raw
-  port: '443'
+  port: 443
   reality-opts:
     public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
     short-id: '!!str 1559b440'
   server: 77.110.113.188
   servername: www.samsung.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB_4|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: '443'
-  server: ge01.auragg.org
-  skip-cert-verify: false
-  sni: ge01.auragg.org
-  type: hysteria2
-  up: ''
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN
