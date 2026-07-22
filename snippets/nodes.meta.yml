@@ -432,7 +432,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇭🇰HK_4|3.4MB/s
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -440,7 +440,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇭🇰HK_5|3.5MB/s
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -464,7 +464,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_3|2.5MB/s
+- name: 日本3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -496,7 +496,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: ❓Other_2|3.1MB/s
+- name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -530,40 +530,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇦🇪AE_1|1.5MB/s
-  network: tcp
-  port: 228
-  reality-opts:
-    public-key: aObndFPcV24WCp5k_njPhUovgVgjw3EvSsLZu3eO-Es
-    short-id: 'cfe56c9d'
-  server: 78.17.76.241
-  servername: fenochka.xanka.best
-  tls: true
-  type: vless
-  udp: true
-  uuid: b6613a9b-0a5b-4453-b982-700a5dc57e71
-- alpn:
-  - h3
-  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  name: 🇨🇭CH_1|1.9MB/s
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: true
-  sni: devideo.h2corp.org
-  type: hysteria2
-- auth: hy2pass123
-  name: 🇭🇰HK_1|1.8MB/s
-  password: hy2pass123
-  port: 8443
-  server: hy2.zzrvic.com
-  skip-cert-verify: true
-  sni: hy2.zzrvic.com
-  type: hysteria2
 - auth: 349eec65-9150-44f4-89b2-7f40cff03f63
-  name: ❓Other_1|2.9MB/s
+  name: 🇸🇬SG_1|3.0MB/s
+  password: 349eec65-9150-44f4-89b2-7f40cff03f63
+  port: 3488
+  server: c3.bestai.beauty
+  skip-cert-verify: true
+  sni: admin.blob.core.windows.net
+  type: hysteria2
+  udp: true
+- name: 🇸🇬SG_2|3.9MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- auth: 349eec65-9150-44f4-89b2-7f40cff03f63
+  name: ❓Other_1|3.5MB/s
   password: 349eec65-9150-44f4-89b2-7f40cff03f63
   port: 3488
   server: c4.bestai.beauty
@@ -571,221 +560,6 @@ proxies:
   sni: admin.blob.core.windows.net
   type: hysteria2
   udp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|2.4MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_2|3.3MB/s
-  network: tcp
-  port: 48329
-  reality-opts:
-    public-key: 28EgCfjWBinJffd_K8pUnvO_YDPygSfLAXC7tBKWcms
-    short-id: '6e5130'
-  server: autochi.papstore.xyz
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b4986aa-c166-49ca-b5dc-56469dab532f
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|2.9MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: '443'
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /in-pdr
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_1|2.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 63.180.180.176
-  type: ss
-  udp: true
-- client-fingerprint: safari
-  encryption: none
-  name: 🇯🇵JP_1|3.6MB/s
-  network: ws
-  port: '443'
-  server: cos-cdn-a.alicdn.win
-  servername: mms-static-bklowz-e.oppocdn.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: aa626cbf-abce-4369-9ad3-c6886312c4fb
-  ws-opts:
-    headers:
-      Host: mms-static-edio-e.oppocdn.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /newlogin/login.do
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.7MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 147.45.47.22
-  servername: sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 🇱🇹LT_1|1.5MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: '1c8d5a7f4e2b9c6d'
-  server: 5.129.201.40
-  servername: auth.moktana.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 190bab80-d7b5-4065-a81f-49a6953bb365
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|1.5MB/s
-  network: ws
-  port: '443'
-  server: x4g-production-7c06.up.railway.app
-  servername: x4g-production-7c06.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22470158-224c-f031-ee03-3f0826454a0f
-  ws-opts:
-    headers:
-      Host: x4g-production-7c06.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /ws/22470158-224c-f031-ee03-3f0826454a0f
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇹🇷TR_1|1.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: 'c6ef72e4635d15a5'
-  server: 45.196.201.88
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_5|2.3MB/s
-  network: ws
-  port: '443'
-  server: 69.46.46.56
-  servername: x4g-production-76a2.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 361823ac-83c4-5c07-f4de-eba672826cd8
-  ws-opts:
-    headers:
-      Host: x4g-production-76a2.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/45.0.2454.93 Safari/537.36
-    path: /ws/361823ac-83c4-5c07-f4de-eba672826cd8
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ns
-  name: 🇨🇿CZ_1|2.1MB/s
-  network: grpc
-  port: '8443'
-  reality-opts:
-    public-key: K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw
-    short-id: ''
-  server: 194.55.239.222
-  servername: id.pervye.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b79afb28-c7df-4f5c-a4c4-d2654627acef
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_2|2.1MB/s
-  network: ws
-  port: '8880'
-  server: 172.65.90.52
-  type: vless
-  udp: true
-  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
-  ws-opts:
-    headers:
-      Host: blue-rice-7142.30-346.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇳🇱NL_1|1.9MB/s
-  network: ws
-  port: '443'
-  server: 3x-ui-production-b1e9.up.railway.app
-  servername: 3x-ui-production-b1e9.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f4a70e3-678e-46fb-ace6-59a5bc12e97b
-  ws-opts:
-    headers:
-      Host: 3x-ui-production-b1e9.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /in1
-  xudp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇮🇩ID_1|2.9MB/s
-  network: tcp
-  port: '39109'
-  reality-opts:
-    public-key: 5R5DFBYrNQi2hqpxhDNztEn2eRMFiDcQBObuPO9U8BU
-    short-id: '0a3125cb9d94baf1'
-  server: apibgp.ianai.it.com
-  servername: iosapps.itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN

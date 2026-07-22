@@ -7,7 +7,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: ❓Other_2|3.1MB/s
+- name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -31,68 +31,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|2.4MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_2|3.3MB/s
-  network: tcp
-  port: 48329
-  reality-opts:
-    public-key: 28EgCfjWBinJffd_K8pUnvO_YDPygSfLAXC7tBKWcms
-    short-id: '!!str 6e5130'
-  server: autochi.papstore.xyz
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b4986aa-c166-49ca-b5dc-56469dab532f
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|1.5MB/s
-  network: ws
-  port: '443'
-  server: x4g-production-7c06.up.railway.app
-  servername: x4g-production-7c06.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22470158-224c-f031-ee03-3f0826454a0f
-  ws-opts:
-    headers:
-      Host: x4g-production-7c06.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /ws/22470158-224c-f031-ee03-3f0826454a0f
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_5|2.3MB/s
-  network: ws
-  port: '443'
-  server: 69.46.46.56
-  servername: x4g-production-76a2.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 361823ac-83c4-5c07-f4de-eba672826cd8
-  ws-opts:
-    headers:
-      Host: x4g-production-76a2.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/45.0.2454.93 Safari/537.36
-    path: /ws/361823ac-83c4-5c07-f4de-eba672826cd8
-  xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: US_speednode_0055
