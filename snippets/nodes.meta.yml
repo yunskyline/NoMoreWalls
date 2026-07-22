@@ -163,6 +163,16 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
+- name: 🇩🇪@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: 5NLxoNSwj0
+  port: 40837
+  server: 162.19.181.176
+  skip-cert-verify: true
+  sni: www.oracle.com
+  tls: false
+  type: hysteria2
 - name: 🇩🇪@V2RayyNGvpn کانال ما ❗
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -371,15 +381,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 📊87@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: lhfl2z9mjngb7csh
-  password: o3774es6cfv74kaf
-  port: 1935
-  server: nrealistic.nn-foto.ru
-  sni: nrealistic.nn-foto.ru
-  tls: false
-  type: hysteria2
 - name: 🪩45@oneclickvpnkeys
   obfs: salamander
   obfs-password: 3sv5vpdl9xr84lyb
@@ -530,16 +531,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: 349eec65-9150-44f4-89b2-7f40cff03f63
-  name: 🇸🇬SG_1|3.0MB/s
-  password: 349eec65-9150-44f4-89b2-7f40cff03f63
-  port: 3488
-  server: c3.bestai.beauty
-  skip-cert-verify: true
-  sni: admin.blob.core.windows.net
-  type: hysteria2
-  udp: true
-- name: 🇸🇬SG_2|3.9MB/s
+- name: 🇸🇬SG_1|4.0MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -551,15 +543,293 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- auth: 349eec65-9150-44f4-89b2-7f40cff03f63
-  name: ❓Other_1|3.5MB/s
-  password: 349eec65-9150-44f4-89b2-7f40cff03f63
-  port: 3488
-  server: c4.bestai.beauty
-  skip-cert-verify: true
-  sni: admin.blob.core.windows.net
-  type: hysteria2
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_1|2.6MB/s
+  network: xhttp
+  port: '8443'
+  server: 162.159.38.119
+  servername: argentinavsspain.dpdns.org
+  tls: true
+  type: vless
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: argentinavsspain.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_1|2.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬SG_2|1.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
+  port: '8443'
+  server: 209.74.81.28
+  skip-cert-verify: true
+  sni: 209.74.81.28
+  type: hysteria2
+  up: ''
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇦🇺AU_1|2.5MB/s
+  port: 62286
+  reality-opts:
+    public-key: DQDN2w0aoQnx-T3qF1fQnA2-stCUzVbBwmayI1smO0g
+    short-id: '4600771a0d0d50'
+  server: apibgp.ianai.it.com
+  servername: www.tesla.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 🇺🇸US_2|1.6MB/s
+  network: ws
+  port: 443
+  server: 60.205.5.16
+  servername: vp36.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp36.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- name: 🇺🇸US_3|1.5MB/s
+  network: ws
+  port: 443
+  server: 60.205.5.16
+  servername: vp67.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp67.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- client-fingerprint: random
+  name: 🇸🇬SG_3|3.9MB/s
+  network: ws
+  port: '443'
+  server: 162.159.16.63
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /fdip=tw.william.us.ci!txt?ed=2560
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_4|4.3MB/s
+  network: ws
+  port: '8443'
+  server: 162.159.3.186
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /fdip=tw.william.us.ci!txt?ed=2560
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_5|4.6MB/s
+  network: ws
+  port: '2087'
+  server: 104.18.36.192
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /fdip=tw.william.us.ci!txt
+  xudp: true
+- client-fingerprint: random
+  name: 🇯🇵JP_1|3.8MB/s
+  network: ws
+  port: '8443'
+  server: 162.159.38.206
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /fdip=tw.william.us.ci!txt
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_6|3.5MB/s
+  network: ws
+  port: '443'
+  server: 172.64.38.215
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /fdip=tw.william.us.ci!txt
+  xudp: true
+- client-fingerprint: random
+  name: 🇯🇵JP_2|3.8MB/s
+  network: ws
+  port: '2087'
+  server: 172.64.53.218
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /fdip=tw.william.us.ci!txt
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_7|3.7MB/s
+  network: ws
+  port: '2087'
+  server: 162.159.0.70
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /fdip=tw.william.us.ci!txt
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_8|4.7MB/s
+  network: ws
+  port: '8443'
+  server: 172.64.35.32
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /fdip=tw.william.us.ci!txt?ed=2560
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_9|4.0MB/s
+  network: ws
+  port: '443'
+  server: 162.159.2.40
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /fdip=tw.william.us.ci!txt?ed=2560
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_10|2.9MB/s
+  network: ws
+  port: '443'
+  server: 162.159.8.155
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /fdip=tw.william.us.ci!txt?ed=2560
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_11|3.5MB/s
+  network: ws
+  port: '443'
+  server: 162.159.33.118
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /fdip=tw.william.us.ci!txt
+  xudp: true
+- client-fingerprint: random
+  name: 🇯🇵JP_3|4.4MB/s
+  network: ws
+  port: '443'
+  server: 162.159.38.78
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    path: /fdip=tw.william.us.ci!txt
+  xudp: true
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
