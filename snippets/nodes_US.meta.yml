@@ -31,41 +31,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_1|2.1MB/s
-  network: ws
-  port: '443'
-  server: ezaccess1-x4g-ezaccess1-e6b8.up.railway.app
-  servername: ezaccess1-x4g-ezaccess1-e6b8.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4834f2fb-0f56-5fe5-37df-2082896b4f75
-  ws-opts:
-    headers:
-      Host: ezaccess1-x4g-ezaccess1-e6b8.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /ws/4834f2fb-0f56-5fe5-37df-2082896b4f75
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_2|3.1MB/s
-  network: tcp
-  port: '26968'
-  reality-opts:
-    public-key: IwMxv6Qwg6pWExtNPebIfOc6nhG82nNyKYVlKQwOPhI
-    short-id: '!!str edec63'
-  server: doufovh.papstore.xyz
-  servername: images-na.ssl-images-amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 70289a41-983c-43bf-8331-c2c8cfb1ffa0
-  xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: US_speednode_0055
