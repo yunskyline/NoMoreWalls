@@ -10,6 +10,23 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
+  name: 🇬🇧GB_1|2.1MB/s
+  network: ws
+  port: '8443'
+  server: kaoqy-uk-akile.cf.090227.xyz
+  servername: akile.uk.781391.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  ws-opts:
+    headers:
+      Host: akile.uk.781391.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
   name: GB_speednode_0003
   packet-encoding: xudp
   port: 443
