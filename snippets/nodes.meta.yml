@@ -137,6 +137,26 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 🇮🇷125314 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 4b6gmo4jujpapx99
+  password: AstroVPN_official
+  port: 8083
+  server: hystry.accuratenetworkchecker.ir
+  skip-cert-verify: false
+  sni: vhd.nth.gelzaro.ir
+  tls: false
+  type: hysteria2
+- name: '🇮🇷125314 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: 4b6gmo4jujpapx99
+  password: AstroVPN_official
+  port: 8083
+  server: soskeynets.accuratenetworkchecker.ir
+  skip-cert-verify: false
+  sni: vhd.nth.gelzaro.ir
+  tls: false
+  type: hysteria2
 - name: 🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: V2RayyNGvpn
@@ -446,59 +466,77 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇩🇪DE_1|2.4MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-- name: CN_speednode_0005
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_6|2.1MB/s
+- client-fingerprint: chrome
+  name: 🇫🇮FI_1|2.0MB/s
   network: ws
-  port: '33410'
-  server: yd4.ainivp.com
-  servername: yd4.ainivp.com
-  skip-cert-verify: false
+  port: 2053
+  server: 46.8.229.218
+  servername: forfreeuse.sub-flow.online
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 9301afcd-025e-781f-1abc-c10efabd1211
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
-      Host: yd4.ainivp.com
-    path: /ray
-  xudp: true
+      Host: forfreeuse.sub-flow.online
+    path: /
+- alpn:
+  - h3
+  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  name: 🇨🇭CH_1|3.2MB/s
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
+  type: hysteria2
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 🇫🇷FR_1|2.9MB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-fr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world
+  type: hysteria2
 - auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 🇨🇦CA_1|1.8MB/s
+  name: 🇬🇧GB_1|2.3MB/s
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
-  server: taga8.api3-max.ru
+  server: wopa3.api3-max.ru
   skip-cert-verify: true
-  sni: taga8.api3-max.ru
+  sni: wopa3.api3-max.ru
   type: hysteria2
-- name: 🇺🇦UA_3|1.9MB/s
-  network: tcp
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_1|2.6MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_1|1.5MB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: '8443'
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /bkdicj
+- name: CN_speednode_0009
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_speednode_0006
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
 - name: US_speednode_0140
@@ -508,674 +546,47 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇰🇷KR_1|1.8MB/s
-  network: ws
-  port: 443
-  server: 129.154.50.159
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_1|3.3MB/s
-  network: ws
-  port: 443
-  server: 172.64.53.55
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_2|2.8MB/s
-  network: ws
-  port: 443
-  server: 162.159.45.19
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_1|2.5MB/s
-  network: ws
-  port: 443
-  server: 162.159.41.252
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_3|4.2MB/s
-  network: ws
-  port: 443
-  server: cf.130519.xyz
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_2|2.6MB/s
-  network: ws
-  port: 443
-  server: 162.159.43.187
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_3|3.9MB/s
-  network: ws
-  port: 443
-  server: 172.64.32.108
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_4|4.0MB/s
-  network: ws
-  port: 443
-  server: 172.64.229.2
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_4|1.6MB/s
-  network: ws
-  port: 443
-  server: store.ubi.com
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇭🇰HK_2|3.7MB/s
-  network: ws
-  port: 443
-  server: 103.74.192.228
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_5|2.4MB/s
-  network: ws
-  port: 443
-  server: 104.18.46.46
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_6|3.9MB/s
-  network: ws
-  port: 443
-  server: 172.64.158.146
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_5|2.9MB/s
-  network: ws
-  port: 443
-  server: 162.159.38.127
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_6|4.0MB/s
-  network: ws
-  port: 443
-  server: 172.64.52.6
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_7|1.9MB/s
-  network: ws
-  port: 443
-  server: 104.18.46.234
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_8|4.3MB/s
-  network: ws
-  port: 443
-  server: 104.18.39.218
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_9|2.9MB/s
-  network: ws
-  port: 443
-  server: 162.159.43.57
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_10|4.1MB/s
-  network: ws
-  port: 443
-  server: 162.159.48.32
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_11|3.3MB/s
-  network: ws
-  port: 443
-  server: 162.159.8.3
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_7|2.6MB/s
-  network: ws
-  port: 443
-  server: 172.64.229.170
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_12|3.8MB/s
-  network: ws
-  port: 443
-  server: 172.64.154.8
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_13|2.1MB/s
-  network: ws
-  port: 443
-  server: 172.64.32.103
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_14|3.8MB/s
-  network: ws
-  port: 443
-  server: 162.159.0.53
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_15|2.9MB/s
-  network: ws
-  port: 443
-  server: 162.159.15.208
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_8|4.1MB/s
-  network: ws
-  port: 443
-  server: 108.162.198.178
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_16|4.7MB/s
-  network: ws
-  port: 443
-  server: www.shopify.com
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_17|3.3MB/s
-  network: ws
-  port: 443
-  server: 104.18.34.14
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_18|4.7MB/s
-  network: ws
-  port: 443
-  server: 104.18.47.113
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇺🇸US_2|2.6MB/s
-  network: ws
-  port: 443
-  server: 154.17.4.244
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_19|3.0MB/s
-  network: ws
-  port: 443
-  server: 172.64.42.85
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_9|4.0MB/s
-  network: ws
-  port: 443
-  server: youxuan.cf.090227.xyz
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_10|4.1MB/s
-  network: ws
-  port: 443
-  server: 162.159.38.224
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_20|3.7MB/s
-  network: ws
-  port: 443
-  server: 162.159.0.169
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇯🇵JP_11|5.2MB/s
-  network: ws
-  port: 443
-  server: 162.159.39.218
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_21|2.4MB/s
-  network: ws
-  port: 443
-  server: 162.159.24.131
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇦🇺AU_1|3.8MB/s
-  network: ws
-  port: 443
-  server: 16.176.42.97
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇸🇬SG_22|2.2MB/s
-  network: ws
-  port: 443
-  server: www.cnae.top
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇭🇰HK_3|4.3MB/s
-  network: ws
-  port: 443
-  server: 43.198.204.35
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 🇲🇴MO_1|3.7MB/s
-  network: ws
-  port: 8443
-  server: fast.nanniang.top
-  servername: mo-akile.nanniang.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  ws-opts:
-    headers:
-      Host: mo-akile.nanniang.top
-    path: /
-- client-fingerprint: chrome
-  name: 🇬🇧GB_1|2.2MB/s
-  network: ws
-  port: 8443
-  server: fast.nanniang.top
-  servername: uk-akile.nanniang.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  ws-opts:
-    headers:
-      Host: uk-akile.nanniang.top
-    path: /
-- name: 🇺🇦UA_4|2.6MB/s
+- name: 🇺🇦UA_3|2.0MB/s
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
-  server: oplosgru-c.catcat321.com
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  tls: true
   type: trojan
   udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇨🇦CA_2|2.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-ca-002.fastervpn.world
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|2.6MB/s
+  network: ws
+  port: 8443
+  server: fast.nanniang.top
+  servername: us-akile.nanniang.top
   skip-cert-verify: true
-  sni: vpn-ca-002.fastervpn.world
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇵🇱PL_1|2.8MB/s
-  obfs: ''
-  obfs-password: ''
-  password: Apt1923_N9x234gn_Nal5Nx3j_s
-  port: '8443'
-  server: 92.118.205.238
-  skip-cert-verify: true
-  sni: grape-power-pl.ddnsguru.com
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇧🇬BG_1|2.6MB/s
-  network: tcp
-  port: '750'
-  reality-opts:
-    public-key: _SsduPmSCqqWdYOIWVkN1E87DUW3s6pAAPg9fVqtD18
-    short-id: '035f14bee824ec7b'
-  server: hk03.ccdn3.work
-  servername: i1.hdslb.com
   tls: true
   type: vless
   udp: true
-  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
-  xudp: true
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  ws-opts:
+    headers:
+      Host: us-akile.nanniang.top
+    path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.7MB/s
-  network: tcp
-  port: '751'
-  reality-opts:
-    public-key: 8rEONyw_qnJqvPZLDEJwr49YtHhkTuGgZWLCCeEW_wQ
-    short-id: '66b1be148be9eea4'
-  server: hk03.ccdn3.work
-  servername: i1.hdslb.com
+  encryption: none
+  name: 🇸🇬SG_1|2.3MB/s
+  network: ws
+  port: '443'
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
   tls: true
   type: vless
   udp: true
-  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|2.5MB/s
-  network: tcp
-  port: '757'
-  reality-opts:
-    public-key: TOEfmCDbdYjHFdzEAsMTMfXRB-k80zZ5uZV45g3SJRI
-    short-id: 'cd0cfab98411cbb7'
-  server: hk03.ccdn3.work
-  servername: i1.hdslb.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_4|3.9MB/s
-  network: tcp
-  port: '793'
-  reality-opts:
-    public-key: dhwO3fomENJoBQO-T4NPxmTDgTOsUsTpG3NsaJdxsWw
-    short-id: 'bf92e87fff488bd3'
-  server: hk03.ccdn3.work
-  servername: i1.hdslb.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_5|3.5MB/s
-  network: tcp
-  port: '796'
-  reality-opts:
-    public-key: TF0cpYzynl9KBdRfExFyNGoQn-l0XHmTkvRMgwf4VV8
-    short-id: 'e62d7339ead9eb13'
-  server: hk03.ccdn3.work
-  servername: www.bilibili.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /sg-melbi
   xudp: true
 - name: AE_speednode_0001
   network: ws
@@ -1207,6 +618,21 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: CN_speednode_0005
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: CN_speednode_0006
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: CN_speednode_0007
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -1220,14 +646,6 @@ proxies:
   port: 9450
   server: rr1.tube-cat.com
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CN_speednode_0009
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
