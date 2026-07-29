@@ -1,6 +1,6 @@
 proxies:
 - auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 🇬🇧GB_1|2.3MB/s
+  name: 🇬🇧GB_1|2.0MB/s
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa3.api3-max.ru
