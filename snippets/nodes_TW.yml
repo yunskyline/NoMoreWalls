@@ -1,14 +1,21 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
+- client-fingerprint: chrome
+  name: 🇹🇼TW_1|2.7MB/s
+  network: tcp
+  password: i99Cef
+  port: '28101'
+  server: 209.248.32.115
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇹🇼TW_2|3.6MB/s
+  network: tcp
+  password: i99Cef
+  port: '28101'
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
