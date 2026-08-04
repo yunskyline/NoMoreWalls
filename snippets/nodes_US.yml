@@ -2,36 +2,38 @@ proxies:
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 18.163.100.58
+  port: 39024
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 95.40.107.76
+  port: 39024
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29085
-  server: 16.162.164.238
+  port: 15775
+  server: 18.163.193.0
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.4MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|2.5MB/s
+  password: amazonskr05
   port: 443
-  server: 162.159.82.246
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
+  server: 98.93.33.57
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.163.196.142
+  type: ss
+  udp: true
