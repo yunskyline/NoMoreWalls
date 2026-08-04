@@ -40,76 +40,165 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|2.4MB/s
-  network: ws
-  port: '2095'
-  server: 104.18.42.98
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: 🇺🇸US_2|1.1MB/s
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_1|1.1MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: US_speednode_0058
   password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
   port: 443
   server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
   sni: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
   tls: true
   type: http
+  udp: true
   username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-- name: 🇺🇸US_3|1.1MB/s
+- name: US_speednode_0056
   password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
   port: 443
   server: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
   sni: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
   tls: true
   type: http
-  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-- name: US_speednode_0086
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
   udp: true
-- name: US_speednode_0087
-  port: 62145
-  server: 157.137.223.179
+  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: JP_speednode_0011
+  network: tcp
+  port: 10005
+  reality-opts:
+    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
+    short-id: '!!str 1974efea3b2148'
+  server: family.bucket.4.kfc-520.com
+  servername: www.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_5|4.0MB/s
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: vSg0Cr4YV0ODJfb1TBjEOUxmFphSdFMXIJ-0ZNxcQiw
+    short-id: '!!str 8a7be6783eae0fe3'
+  server: 216.24.191.214
+  servername: sb.music.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc3dd3d6-0684-4852-bff8-07c0b741aa08
+  xudp: true
+- name: US_speednode_0059
+  network: tcp
+  port: 443
+  server: 45.78.73.241
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  uuid: b3b23e31-4972-4eec-9852-8de3eb6c7ef7
+  xudp: true
+- name: US_speednode_0057
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0060
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0091
+  name: US_speednode_0071
   network: tcp
   port: 993
   reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
   server: 88.218.44.4
-  servername: download.nvidia.com
+  servername: dl.google.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: US_speednode_0089
-  port: 9002
-  server: 138.199.35.216
+- name: US_speednode_0062
+  port: 443
+  server: 38.28.193.188
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: US_speednode_0092
-  password: None
+- name: US_speednode_0063
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0064
+  password: 'null'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: US_speednode_0065
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: US_speednode_0066
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0067
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0068
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0069
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0072
+  port: 9002
+  server: 156.146.59.33
   skip-cert-verify: true
   tls: true
   type: http
