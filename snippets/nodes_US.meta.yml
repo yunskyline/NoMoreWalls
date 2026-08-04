@@ -16,29 +16,6 @@ proxies:
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
-- name: 🛰️92@oneclickvpnkeys
-  password: Hy2@SiLiCon2026!
-  port: 8443
-  server: 43.130.7.3
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 🛰️84@oneclickvpnkeys
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: hy2.123266.xyz
-  sni: hy2.123266.xyz
-  tls: false
-  type: hysteria2
-- name: 🛰️98@oneclickvpnkeys
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -55,7 +32,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- name: 🇺🇸US_22|3.1MB/s
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -63,141 +40,217 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- encryption: none
-  name: 🇺🇸US_1|1.8MB/s
-  network: ws
-  port: '2095'
-  server: 172.66.1.242
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.27S9yUTrCxQh_iReHwg8pDW4OPhj1cZYfMP9Tkj2xwo
+  name: 🇺🇸US_1|2.1MB/s
+  network: xhttp
+  port: 443
+  server: 69.46.46.158
+  servername: 3x-ui-upgrade2-production-8a8e.up.railway.app
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-q.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 98.93.33.57
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: 3x-ui-upgrade2-production-8a8e.up.railway.app
+    mode: auto
+    path: /user
+    x-padding-bytes: 100-1000
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|1.5MB/s
+  network: tcp
+  port: 10004
+  reality-opts:
+    public-key: YoLRlSFCOiQjky1hQVHuSkiaPER4pro1uDyCTHVSfwY
+    short-id: '!!str df52dd28ff'
+  server: family.bucket.3.kfc-520.com
+  servername: www.intel.com
+  tls: true
+  type: vless
   udp: true
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|1.5MB/s
+  network: xhttp
+  port: '37789'
+  reality-opts:
+    public-key: UkvgTlCFgSf2A2FtCJISg8r3hhRQbbfJIpQ6mSlL71k
+    short-id: '!!str 0dadb8f893'
+  server: second.shadydomain.qzz.io
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    mode: auto
+    path: /shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@
+    x-padding-bytes: 1-1000
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_4|2.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: '443'
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_5|2.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: '443'
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  type: hysteria2
+  up: ''
+- name: US_speednode_0089
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0092
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: null
 - cipher: aes-256-cfb
-  name: 🇺🇸US_3|3.5MB/s
+  name: 🇺🇸US_8|4.1MB/s
   password: amazonskr05
   port: 443
   server: 54.163.196.142
   type: ss
   udp: true
-- name: 🇺🇸US_4|2.8MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.205
+- cipher: aes-256-cfb
+  name: 🇺🇸US_9|2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.85.61.177
+  type: ss
+  udp: true
+- name: 🇺🇸US_24|1.2MB/s
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: '443'
+  server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
   skip-cert-verify: true
+  sni: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
   tls: true
   type: http
-  username: null
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- name: 🇺🇸US_11|1.6MB/s
+  port: 1080
+  server: 141.148.158.143
+  type: socks5
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_5|3.8MB/s
+  name: 🇺🇸US_12|2.3MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 🇺🇸US_6|3.9MB/s
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_13|1.0MB/s
+  port: 39999
+  reality-opts:
+    public-key: rBLgYxDPw9nmzppUc_8Hr-puEW7lkpN1zoRDRcA-Ywo
+    short-id: '!!str 5f7b'
+  server: direct-us-astound-03.inetsnode.de
+  servername: swdist.apple.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 🇺🇸US_7|4.5MB/s
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_8|2.0MB/s
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+- name: 🇺🇸US_14|2.1MB/s
   password: None
   port: 9002
-  server: 138.199.35.209
+  server: 156.146.59.49
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_9|1.9MB/s
+- client-fingerprint: firefox
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇺🇸US_15|3.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: itfYOjWaEZ8FSD730zUvrhCbbzWgSWFDXjnAWCj23Rc
+    short-id: '!!str e371d988'
+  server: 161.104.90.17
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- name: 🇺🇸US_16|3.6MB/s
+  password: ''
   port: 9002
-  server: 156.146.59.27
+  server: 156.146.59.12
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_10|3.3MB/s
+  username: ''
+- name: 🇺🇸US_18|1.4MB/s
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_11|2.2MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|3.3MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|3.0MB/s
-  port: 9002
-  server: 156.146.59.7
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_14|2.2MB/s
+- name: 🇺🇸US_19|3.3MB/s
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_15|1019KB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4
-    short-id: '!!str '
-  server: 2.26.94.15
-  servername: pro-tr.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0c0a91de-5250-4d6c-9922-f3594d99f096
-  xudp: true
-- name: 🇺🇸US_16|1.2MB/s
-  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  port: '443'
-  server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
+- name: 🇺🇸US_20|2.2MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.7
   skip-cert-verify: true
   tls: true
   type: http
-  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-- name: 🇺🇸US_17|3.3MB/s
+  username: ''
+- name: 🇺🇸US_21|3.6MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_23|1.1MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_25|4.4MB/s
   password: 'null'
   port: '9002'
   server: 138.199.35.207
@@ -234,18 +287,3 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: US_speednode_0089
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0092
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
