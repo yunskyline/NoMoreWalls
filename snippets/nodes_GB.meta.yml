@@ -21,13 +21,28 @@ proxies:
   sni: nl7.unlockvpn.online
   tls: false
   type: hysteria2
-- name: 🎗️37@oneclickvpnkeys
+- name: '英国 #2'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.221
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇬🇧GB_1|1.5MB/s
+  network: tcp
+  port: '2053'
+  reality-opts:
+    public-key: JH8yFK9WKJnwxF4HTGO2ZOXZDlaDqYzx3e5PvyeU8ww
+    short-id: '!!str 6edb6b2ddfed9e1c'
+  server: 51.89.194.151
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bb742567-ec51-4956-9d3d-099e1a4d48c4
+  xudp: true
 - name: GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
