@@ -75,14 +75,6 @@ proxies:
   sni: gr.nexovip.cyou
   tls: false
   type: hysteria2
-- name: 🦁62@oneclickvpnkeys
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: de.1.22.washing.help
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: 🇩🇪|DE|@wxgqlfx|213
@@ -93,6 +85,38 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_1|3.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: '443'
+  server: de48.mechvpn.online
+  skip-cert-verify: true
+  sni: de48.mechvpn.online
+  type: hysteria2
+  up: ''
+- name: 🇩🇪DE_2|1.2MB/s
+  port: 11111
+  server: 103.237.102.191
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|2.0MB/s
+  network: raw
+  port: '2053'
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: '!!str c0d1d1776fed0f6d'
+  server: ee-t3.vinnypuxtomoon.today
+  servername: ee-t3.vinnypuxtomoon.today
+  tls: true
+  type: vless
+  udp: true
+  uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
+  xudp: true
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443

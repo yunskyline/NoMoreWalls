@@ -11,3 +11,19 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_1|4.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 5If1QVt0r8CM8KuKE2LfhILVdGgvawAFhE0iHInKrTM
+    short-id: '!!str '
+  server: 83.228.242.53
+  servername: ch2kto.pidoras-dns.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 805e7df0-139b-4be2-a736-cab10eb4cce0
+  xudp: true
