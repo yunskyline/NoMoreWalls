@@ -6,41 +6,12 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- auth: 725bc0b69e720cd5a2cd209252507c6e
-  name: 🇬🇧GB_1|3.9MB/s
-  password: 725bc0b69e720cd5a2cd209252507c6e
-  port: 50160
-  server: 94-229-64-108.liao.kdns.fr
+- name: 🇬🇧GB_1|2.2MB/s
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
-  sni: 94-229-64-108.liao.kdns.fr
-  type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_2|2.2MB/s
-  network: xhttp
-  port: '443'
-  server: 104.16.75.207
-  servername: mad.sub017.dpdns.org
   tls: true
-  type: vless
-  udp: true
-  uuid: a1968031-ab14-4517-92f0-6e622a79551b
-  xhttp-opts:
-    host: mad.sub017.dpdns.org
-    mode: auto
-    path: /api
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-connections: '6'
-    x-padding-bytes: 100-1000
-  xudp: true
+  type: http
 - name: GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443

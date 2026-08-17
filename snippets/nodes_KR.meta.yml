@@ -1,8 +1,1 @@
-proxies:
-- name: 🇰🇷KR_1|5.0MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 47901
-  server: sivp555.ipad1el.com
-  skip-cert-verify: true
-  sni: kr06.nyssl.cc
-  type: anytls
+proxies: []

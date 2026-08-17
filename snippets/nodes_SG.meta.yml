@@ -39,28 +39,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬SG_1|5.6MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 56277
-  server: yzany01.jdoanst2026.com
-  skip-cert-verify: true
-  sni: xjp03.ascwt179.com
-  type: anytls
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_4|4.3MB/s
-  password: f7493282-492a-4a96-8582-0ea9e1d9c268
-  port: 27045
-  server: a.salirukou.shop
-  skip-cert-verify: true
-  sni: svaasx.yfftftf.shop
-  type: anytls
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|1.9MB/s
+  password: PQ05174892
+  port: '443'
+  server: infinite-anteater.rooster465.autos
+  skip-cert-verify: false
+  sni: infinite-anteater.rooster465.autos
+  type: trojan
   udp: true
-- name: 🇸🇬SG_5|2.1MB/s
-  password: ESfDSCxpD
-  port: 64462
-  server: 154.219.254.66
-  type: http
-  username: n17sMRE7S
