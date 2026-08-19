@@ -29,7 +29,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇺🇸US_13|3.9MB/s
+  name: 🇺🇸US_7|2.0MB/s
   network: http
   port: 52080
   server: 38.246.226.240
@@ -39,3 +39,13 @@ proxies:
   udp: true
   uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
   xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_13|2.6MB/s
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: 34.223.2.163
+  skip-cert-verify: false
+  sni: active-hippo.rooster465.autos
+  type: trojan
+  udp: true
