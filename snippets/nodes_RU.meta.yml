@@ -6,45 +6,16 @@ proxies:
   sni: j47lq.pleiades.codes
   tls: false
   type: hysteria2
-- name: 🇷🇺|RU|@wxgqlfx|229
-  password: 921db318-1694-4408-9cc7-c93df39f7f8e
-  port: 443
-  server: ru-i-2.monkeyisland.xyz
-  skip-cert-verify: true
-  sni: ru-i-2.monkeyisland.xyz
-  tls: false
-  type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.8MB/s
-  network: tcp
+  name: 🇷🇺RU_1|2.9MB/s
+  network: raw
   port: '443'
-  reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: '!!str 5e6f7a8b'
-  server: 92.255.78.9
-  servername: max.ru
+  server: translate.magazinetut.online
+  servername: translate.magazinetut.online
   tls: true
   type: vless
   udp: true
-  uuid: f6da8274-44be-4599-a8d8-66929c980677
-  xudp: true
-- client-fingerprint: android
-  encryption: none
-  name: 🇷🇺RU_2|2.4MB/s
-  network: ws
-  port: '2053'
-  server: 72.56.236.219
-  servername: usa1.wba-pn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd3ff7be-f277-494b-a651-c210b93f2c19
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: ''
+  uuid: 5c025078-2eae-4c53-bad1-5e491f33395e
   xudp: true
