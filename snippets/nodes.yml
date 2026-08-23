@@ -210,37 +210,79 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇦🇺AU_1|2.7MB/s
-  password: FH72359861
-  port: '443'
-  server: national-stingray.rooster465.autos
-  skip-cert-verify: true
-  sni: national-stingray.rooster465.autos
-  type: trojan
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_1|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.136
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|1.4MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.138
+  type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP_1|5.4MB/s
+  name: 🇫🇷FR_2|1017KB/s
   network: ws
-  password: 8978b84c-6b95-4494-beb6-5246ec82e9ad
+  password: humanity
   port: '443'
-  server: cdn3.bpcdn.cc
+  server: 104.18.152.140
   skip-cert-verify: false
-  sni: baijofe6666.bpjp2027.top
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /images
-- client-fingerprint: chrome
-  name: 🇦🇺AU_3|2.2MB/s
-  network: tcp
-  password: FH72359861
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_3|2.4MB/s
+  network: ws
+  password: humanity
   port: '443'
-  server: 87.121.33.109
-  skip-cert-verify: true
-  sni: national-stingray.rooster465.autos
+  server: 216.24.57.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|1.9MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.159
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇺🇸US_18|3.4MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 188.42.145.180
+  skip-cert-verify: false
+  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
