@@ -120,24 +120,35 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.2MB/s
-  network: tcp
-  port: 443
-  server: 143.246.136.78
-  servername: wok1.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-- cipher: aes-256-gcm
-  name: 🇺🇸US_2|4.6MB/s
-  password: b160be88-28c2-31bb-a153-8b050228f0c3
-  port: '20016'
-  server: f.4.h.5.3.i.i.9.6.us02-ae5.entry.v51124-3a.qpon
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_1|4.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21105'
+  server: 211.91.158.44
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_2|4.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21108'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_3|3.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21105'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- name: 🇺🇸US_4|1.0MB/s
+  password: ''
+  port: '443'
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
