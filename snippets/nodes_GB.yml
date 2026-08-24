@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.135.73.177
+  type: ss

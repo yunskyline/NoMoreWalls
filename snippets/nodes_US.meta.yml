@@ -55,204 +55,212 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🇺🇸 美国|@ripaojiedian
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 34039
-  server: 43.199.143.104
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 39024
-  server: 95.40.14.234
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 39024
-  server: 43.199.155.17
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   name: 美国2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 3kCf86Ufi0U5xBDA.v.3dns.vip
-  servername: 3kCf86Ufi0U5xBDA.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 3kCf86Ufi0U5xBDA.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 美国|@ripaojiedian
-  network: ws
-  port: '443'
-  server: lL0GIaPVZ6Zxkd94.v.3dns.vip
-  servername: lL0GIaPVZ6Zxkd94.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lL0GIaPVZ6Zxkd94.v.3dns.vip
-    path: /ws-vmess
+  password: Butterfly123@qwe9527
+  port: 50003
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US_3|1.6MB/s
+  password: Butterfly123@qwe9527
+  port: 50001
+  server: 103.236.66.4
+  type: ss
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 39024
-  server: 54.46.3.138
+  port: 34039
+  server: 54.179.227.94
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  name: 🇺🇸US_1|1.8MB/s
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 82.39.214.95
+- name: 🇺🇸US_1|2.1MB/s
+  password: test123
+  port: '1080'
+  server: 185.145.99.41
   skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
-  type: hysteria2
-- name: US_speednode_0131
-  password: 'null'
+  type: socks5
+  username: test123
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|1.2MB/s
+  network: ws
+  port: '2053'
+  server: 142.248.218.34
+  servername: edge.yzkvm.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  ws-opts:
+    headers:
+      Host: edge.yzkvm.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /
+  xudp: true
+- name: US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  sni: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_5|1.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Ox-9pWkRhMt3-9qfNMoFc4gIQ82xfPpxce_XT_xosys
+    short-id: '!!str b21d5263'
+  server: 23.94.239.108
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 57a45af8-114a-4b37-abe1-67af4ba372ea
+- name: 🇺🇸US_6|2.7MB/s
+  port: 443
+  server: kimberlymilano.icu
+  sni: kimberlymilano.icu
+  tls: true
+  type: http
+- name: 🇺🇸US_7|4.1MB/s
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: 'null'
-- name: US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_4|2.6MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21108'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- name: 🇺🇸US_5|2.8MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_6|2.1MB/s
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_7|2.7MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_8|1014KB/s
-  port: 9002
-  server: 156.146.59.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|3.2MB/s
-  port: 9002
-  server: 156.146.59.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|3.5MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_11|4.5MB/s
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_12|2.4MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_13|1.0MB/s
+- name: 🇺🇸US_8|1.4MB/s
   password: None
   port: 9002
-  server: 156.146.59.27
+  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_14|1.3MB/s
+- name: 🇺🇸US_9|3.8MB/s
+  password: None
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_10|3.4MB/s
+  port: 443
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
+  tls: true
+  type: http
+- name: 🇺🇸US_11|2.1MB/s
   password: ''
-  port: 9002
-  server: 156.146.59.5
+  port: 443
+  server: goedkoopgeluid.icu
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_15|2.0MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.15
-  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
   tls: true
   type: http
   udp: true
   username: ''
-- name: 🇺🇸US_16|2.3MB/s
+- name: 🇺🇸US_12|3.6MB/s
+  password: None
   port: 9002
-  server: 156.146.59.16
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_13|3.3MB/s
+  port: 9002
+  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_17|3.2MB/s
-  network: ws
-  port: '443'
-  server: sjzhehzs-production.up.railway.app
-  servername: sjzhehzs-production.up.railway.app
+- name: 🇺🇸US_14|3.5MB/s
+  password: None
+  port: 443
+  server: jgwynphotoarts.pro
+  skip-cert-verify: false
   tls: true
-  type: vless
-  udp: true
-  uuid: 5331798d-827a-47b2-8a00-d62db5077812
-  ws-opts:
-    headers:
-      Host: sjzhehzs-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-    path: /ws/5331798d-827a-47b2-8a00-d62db5077812
-  xudp: true
+  type: http
+  username: null
+- name: 🇺🇸US_15|3.0MB/s
+  password: None
+  port: 443
+  server: crosscards.site
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_16|1.4MB/s
+  port: 443
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
+  tls: true
+  type: http
+- name: 🇺🇸US_18|3.2MB/s
+  password: None
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_19|2.6MB/s
+  port: 443
+  server: webdrone.club
+  sni: webdrone.club
+  tls: true
+  type: http
+- name: 🇺🇸US_20|3.9MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_21|1.7MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.40
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_22|1.5MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_23|2.4MB/s
+  password: 'null'
+  port: 9002
+  server: 156.146.59.28
+  skip-cert-verify: true
+  sni: 156.146.59.28
+  tls: true
+  type: http
+  username: 'null'
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_24|4.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 569354367bdf7f34d31bbf33760bf314
+  port: '50160'
+  server: 166.0.16.52
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -268,6 +276,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0132
@@ -287,12 +304,6 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -400,6 +411,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0144
