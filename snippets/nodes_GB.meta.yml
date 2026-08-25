@@ -37,89 +37,21 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_3|1.5MB/s
-  password: None
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|1.1MB/s
+  password: amazonskr05
   port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|3.5MB/s
+  server: 13.135.167.23
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_2|1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.132.52.104
+  type: ss
+- name: 🇬🇧GB_3|1.2MB/s
   port: 443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_5|1.9MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇬🇧GB_6|1.9MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-    short-id: '!!str '
-  server: 104.171.128.225
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_7|4.2MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: djzfpNmvwYjCaOUUOHU_k0kl92HXIGIurq2i0p5UyDo
-    short-id: '!!str 1dc6d8a2045a7c9d'
-  server: 109.169.85.141
-  servername: slashdot.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: bbc164a1-b246-456b-aefd-95c5e5f877d4
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇬🇧GB_8|3.0MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-    short-id: '!!str '
-  server: 104.171.128.225
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 🇬🇧GB_9|1.1MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-    short-id: '!!str '
-  server: 104.171.128.225
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
-  xudp: true

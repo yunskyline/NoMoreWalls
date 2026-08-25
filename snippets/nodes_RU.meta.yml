@@ -1,11 +1,7 @@
 proxies:
-- grpc-opts:
-    grpc-service-name: zuugrpc
-  name: 🇷🇺RU_1|1.6MB/s
-  network: grpc
-  port: '27700'
-  server: 46.149.66.9
-  type: vless
-  udp: true
-  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
-  xudp: true
+- name: 🇷🇺RU_1|1.9MB/s
+  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
+  port: 4433
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
