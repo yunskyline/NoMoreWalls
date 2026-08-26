@@ -6,9 +6,3 @@ proxies:
   server: 35.182.226.235
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇨🇦CA_2|3.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 16.52.90.213
-  type: ss
