@@ -40,6 +40,14 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
+- name: 🐲91@oneclickvpnkeys
+  password: gf1
+  port: 443
+  server: 66.94.121.46
+  skip-cert-verify: true
+  sni: www.broadcom.com
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
   name: 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -60,19 +68,88 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸US_1|1.1MB/s
-  network: ws
+- client-fingerprint: firefox
+  name: 🇺🇸US_1|1.6MB/s
+  network: xhttp
   port: 443
-  server: us.mkdir.kdns.fr
-  servername: web-jornttsa.pages.dev
+  reality-opts:
+    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
+    short-id: '!!str 812609fa663c57fb'
+  server: 162.35.231.81
+  servername: net.savesafe.run
   tls: true
   type: vless
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  ws-opts:
-    headers:
-      Host: web-jornttsa.pages.dev
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    host: net.savesafe.run
     path: /
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|1.1MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- name: 🇺🇸US_3|2.5MB/s
+  port: 443
+  server: purposebydesig.club
+  sni: purposebydesig.club
+  tls: true
+  type: http
+- name: 🇺🇸US_4|2.4MB/s
+  password: None
+  port: 20002
+  server: 154.12.49.124
+  type: socks5
+  udp: true
+  username: null
+- name: 🇺🇸US_5|3.5MB/s
+  password: None
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_6|1.2MB/s
+  port: 443
+  server: webdrone.club
+  sni: webdrone.club
+  tls: true
+  type: http
+- name: 🇺🇸US_7|2.0MB/s
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  sni: mmgr.club
+  tls: true
+  type: http
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_8|1.9MB/s
+  network: xhttp
+  port: '443'
+  server: us.tutvpn.com
+  servername: us.tutvpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+  xhttp-opts:
+    host: us.tutvpn.com
+    path: /tutcdn/
+  xudp: true
+- name: 🇺🇸US_10|1.0MB/s
+  password: ''
+  port: '8090'
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
