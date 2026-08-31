@@ -15,14 +15,7 @@ proxies:
   sni: mkm.icu
   tls: false
   type: hysteria2
-- name: '美国 #2'
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8080
-  server: 82.39.214.98
-  sni: hopp-us.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '美国 #3'
+- name: 🪆74@oneclickvpnkeys
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -40,12 +33,25 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: '美国 #4'
+- name: '美国 #3'
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
   server: faq.wwwinternetvideo.click
   skip-cert-verify: true
   sni: cabinet.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: '🇫🇮ConfigV2RayNG #3'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1m1xfvpaa5ek4omq
+  port: 52078
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - cipher: aes-256-gcm
@@ -68,58 +74,50 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|1.2MB/s
+  network: ws
+  port: '443'
+  server: stan-production-19cc.up.railway.app
+  servername: stan-production-19cc.up.railway.app
   tls: true
-  type: http
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_2|3.3MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c47ab06:133288
-    mode: tls
-  port: 2377
-  server: 3ce8ee8.hb.gladns.com
-  type: ss
-  udp: true
-- name: 🇺🇸US_3|3.9MB/s
-  password: None
-  port: 36451
-  server: 38.246.226.240
-  type: http
-  username: null
-- name: US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  sni: voteshirleysew.club
+  uuid: 88a2a55b-06b9-4b60-9987-88b45a8db990
+  ws-opts:
+    headers:
+      Host: stan-production-19cc.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /vl-ws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_2|1.6MB/s
+  network: tcp
+  port: '53856'
+  reality-opts:
+    public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA
+    short-id: '!!str '
+  server: 38.127.121.44
+  servername: www.speedtest.net
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 🇺🇸US_5|1.0MB/s
-  port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
-  tls: true
-  type: http
-- name: 🇺🇸US_6|4.8MB/s
-  port: 9002
-  server: 138.199.35.201
+  uuid: 3ab5119a-d0e9-4feb-c748-2b42b7367d21
+  xudp: true
+- name: 🇺🇸US_3|1.6MB/s
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: us4.xiaoliyu.cyou
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|1.1MB/s
-  password: None
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_8|1.8MB/s
+  sni: us4.xiaoliyu.cyou
+  type: hysteria2
+  udp: true
+- name: 🇺🇸US_4|3.5MB/s
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
   server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
@@ -127,51 +125,6 @@ proxies:
   tls: true
   type: http
   username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 🇺🇸US_9|2.7MB/s
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_10|2.5MB/s
-  password: 'null'
-  port: 443
-  server: purecambogiasl.live
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_11|1.0MB/s
-  password: None
-  port: 5252
-  server: 148.100.84.192
-  type: http
-  username: null
-- name: 🇺🇸US_12|1.9MB/s
-  port: 16062
-  server: 104.218.199.16
-  type: http
-- name: 🇺🇸US_13|2.2MB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_14|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 06JHsYUKlIJoJdPoWORIEfgeNKRSRGHnfGZSLGRQ1zs
-    short-id: '!!str 2fe145b3'
-  server: 167.234.214.41
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25e1414a-51f0-4361-b97d-99a3ae432a12
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -215,6 +168,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -293,6 +252,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0141
   port: 443
   server: 38.28.193.188
