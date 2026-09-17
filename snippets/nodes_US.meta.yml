@@ -17,13 +17,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 💈97@oneclickvpnkeys
-  password: CompanyHy2_2026!
-  port: 36712
-  server: 38.60.204.239
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -80,29 +73,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.5MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
+- auth: 19f72087-4591-4d72-930b-2697078ec2be
+  name: 🇺🇸US_1|2.7MB/s
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: es1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.149.6.228
-  type: ss
-  udp: true
-- name: 🇺🇸US_3|1.6MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130

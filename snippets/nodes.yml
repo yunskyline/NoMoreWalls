@@ -197,16 +197,9 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 🇺🇸US_2|1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.149.6.228
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_2|1.5MB/s
+  name: 🇩🇪DE_1|1.0MB/s
   password: amazonskr05
   port: '443'
-  server: 52.28.158.0
+  server: 18.194.210.177
   type: ss
   udp: true
