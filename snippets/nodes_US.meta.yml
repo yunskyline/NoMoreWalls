@@ -27,23 +27,33 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇺🇸US_1|1.2MB/s
-  network: ws
-  port: 443
-  server: 172.64.79.241
-  servername: cdn8848.776676.xyz
+- auth: fcc91034-a05d-4da1-ab38-422b21987ff9
+  name: 🇺🇸US_1|2.9MB/s
+  password: fcc91034-a05d-4da1-ab38-422b21987ff9
+  port: 50848
+  server: 108.181.5.1
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /pics?ed=2560
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- auth: fcc91034-a05d-4da1-ab38-422b21987ff9
+  name: 🇺🇸US_2|3.6MB/s
+  password: fcc91034-a05d-4da1-ab38-422b21987ff9
+  port: 50979
+  server: 108.181.8.138
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  udp: true
+- auth: fcc91034-a05d-4da1-ab38-422b21987ff9
+  name: 🇺🇸US_3|2.5MB/s
+  password: fcc91034-a05d-4da1-ab38-422b21987ff9
+  port: 51849
+  server: 108.181.8.122
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
