@@ -9,11 +9,10 @@ proxies:
   port: 36609
   server: gd.bjnet2.com
   type: ss
-- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  name: 🇯🇵JP_1|1.4MB/s
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20561
-  server: msjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_1|4.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.209.209
+  type: ss
+  udp: true

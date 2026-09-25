@@ -19,7 +19,27 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: '🇩🇪 V2RayyNGvpn 🇩🇪 #1'
+- name: '@Daily_Configs'
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: 162.249.125.133
+  skip-cert-verify: false
+  sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: 🇩🇪181296 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: Telegram=V2RayyNGvpn
+  port: 443
+  server: 91.107.150.74
+  skip-cert-verify: false
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '🇩🇪 V2RayyNGvpn 🇩🇪 #2'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: V2RayyNGvpn
@@ -29,3 +49,39 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 🇩🇪DE_1|1.8MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_2|2.5MB/s
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_3|1.1MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: 🇩🇪DE_4|1.4MB/s
+  network: grpc
+  port: '443'
+  server: assets-de2.pleiades.codes
+  servername: assets-de2.pleiades.codes
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  xudp: true
