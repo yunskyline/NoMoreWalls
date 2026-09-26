@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_1|1.9MB/s
+  name: 🇪🇪EE_1|2.2MB/s
   network: tcp
   port: '443'
   reality-opts:
