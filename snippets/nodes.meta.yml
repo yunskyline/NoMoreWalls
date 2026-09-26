@@ -176,14 +176,6 @@ proxies:
   sni: se1.chromevpn.cc
   tls: false
   type: hysteria2
-- name: 🕊️49@oneclickvpnkeys
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: 5.183.101.138
-  skip-cert-verify: true
-  sni: se.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
 - name: 🕊️68@oneclickvpnkeys
   password: 31329f25
   port: 4443
@@ -242,6 +234,15 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: 🐸25@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: SalamanderKey1
+  password: HystPass2026!
+  port: 8443
+  server: 2.26.54.174
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '@v2raybaaz'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
@@ -294,7 +295,7 @@ proxies:
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 'kurdconfig #1'
+- name: 🌍181533 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: telegram-ID-conf0088
   password: TELEGRAM-ID-conf0088
@@ -303,7 +304,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 🇩🇪181296 | ⚡️Telegram = t.me/S...
+- name: 🇩🇪 V2RayyNGvpn 🇩🇪
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: Telegram=V2RayyNGvpn
@@ -401,6 +402,14 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 🐸28@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
 - name: '✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -431,6 +440,14 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 🐸40@oneclickvpnkeys
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  port: 443
+  server: 217.60.182.79
+  skip-cert-verify: true
+  sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - name: '@ICV2RAY #1'
@@ -590,105 +607,63 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: ❓Other_1|1.1MB/s
-  network: ws
+- down: ''
+  fingerprint: ''
+  name: 🇨🇭CH_1|1.1MB/s
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  password: 3a702d4d1de4949005d8431220e040fb
   port: '443'
-  server: 172.67.182.133
-  servername: 0-M13.0dCB525d-9bF8-452C-A465-5546541729D1.KdNS.Fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  ws-opts:
-    headers:
-      Host: 0-m13.0dCb525D-9bF8-452c-a465-5546541729d1.kdNS.fR
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /ED3ZQPu7lqyeDGD58KabZ
-  xudp: true
-- name: 🇪🇸ES_1|3.1MB/s
+  server: 152.67.75.161
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- name: 🇮🇪IE_1|1.0MB/s
   password: None
   port: 443
-  server: 130.195.250.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇦🇹AT_1|1.3MB/s
-  port: 443
-  server: 146.70.244.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇵🇱PL_1|1.2MB/s
-  password: None
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇷🇸RS_1|1.6MB/s
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇭CH_1|1.0MB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_1|1.4MB/s
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇨🇭CH_2|2.7MB/s
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇨🇿CZ_1|1.0MB/s
-  password: None
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇮🇹IT_1|2.5MB/s
-  password: None
-  port: 443
-  server: 185.183.105.146
+  server: 149.88.96.1
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - name: 🇬🇧GB_1|1.1MB/s
   port: 443
-  server: 185.235.0.2
+  server: 185.235.0.98
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇷GR_1|2.1MB/s
+- name: 🇨🇭CH_2|2.9MB/s
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_1|2.0MB/s
   password: None
   port: 443
-  server: 149.22.85.65
+  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_2|3.4MB/s
+- name: 🇪🇸ES_1|1.6MB/s
+  password: None
+  port: 443
+  server: 130.195.250.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: ❓Other_1|1.1MB/s
+  password: None
+  port: 443
+  server: 146.70.203.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_2|2.8MB/s
   password: None
   port: 443
   server: 212.102.63.1
@@ -696,64 +671,20 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇳🇱NL_1|1.5MB/s
-  password: None
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|2.1MB/s
+- name: 🇬🇧GB_3|1.2MB/s
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪SE_1|3.0MB/s
+- name: 🇩🇰DK_1|3.0MB/s
   password: None
-  port: 443
-  server: 149.50.216.65
+  port: 9443
+  server: 185.245.84.50
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- encryption: mlkem768x25519plus.random.0rtt.d01qgGQY7ISJ1XmxCXP6W28bCP_1tKQ0J8ntfa514EY
-  name: 🇵🇱PL_2|1.7MB/s
-  network: xhttp
-  port: '6014'
-  server: pl-warsaw.masterpgd.com
-  type: vless
-  udp: true
-  uuid: 1cc6bd10-e414-4171-9220-09aaba23a6fa
-  xhttp-opts:
-    host: myket.ir
-    mode: auto
-    path: /assets
-  xudp: true
-- name: 🇸🇪SE_2|2.7MB/s
-  password: ''
-  port: '443'
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- client-fingerprint: random
-  encryption: none
-  name: 🇩🇪DE_1|1.9MB/s
-  network: xhttp
-  port: '443'
-  server: 31.70.64.90
-  servername: cdn-3123.spliceflowtech.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: becd3b04-62a8-4b74-be67-be746008b4c2
-  xhttp-opts:
-    mode: auto
-    path: /api
-  xudp: true
 - name: NL_speednode_0004
   port: 9002
   server: 84.17.47.125
