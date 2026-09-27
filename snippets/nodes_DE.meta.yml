@@ -19,25 +19,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪182023 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: SalamanderKey1
-  password: HystPass2026!
-  port: 8443
-  server: 2.26.54.174
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '🇩🇪@FreakConfig #1'
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: Telegram=V2RayyNGvpn
-  port: 443
-  server: 91.107.150.74
-  skip-cert-verify: false
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '🇩🇪 V2RayyNGvpn 🇩🇪 #2'
   obfs: salamander
   obfs-password: V2RayyNGvpn
@@ -48,15 +29,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_1|2.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: '9443'
-  server: 95.85.252.78
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  up: ''

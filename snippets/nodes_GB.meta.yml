@@ -1,9 +1,1 @@
-proxies:
-- name: 🇬🇧GB_1|1.5MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+proxies: []
