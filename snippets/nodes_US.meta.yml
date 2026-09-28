@@ -560,27 +560,65 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: 🇺🇸US_1|2.7MB/s
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_1|3.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: 🇺🇸US_2|1.1MB/s
   port: 443
   server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-cfb
-  name: 🇺🇸US_2|1.4MB/s
-  password: amazonskr05
+- name: 🇺🇸US_3|1.3MB/s
+  password: 'null'
   port: 443
-  server: 100.27.202.4
-  type: ss
-  udp: true
-- name: 🇺🇸US_3|3.0MB/s
+  server: tzoa.fun
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_4|3.5MB/s
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+- name: 🇺🇸US_5|1.0MB/s
   password: None
   port: 443
-  server: purecambogiasl.live
+  server: goedkoopgeluid.icu
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- name: 🇺🇸US_6|1.4MB/s
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_7|3.8MB/s
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 19512
+  server: us1.xiaoliyu.us
+  skip-cert-verify: true
+  sni: us1.xiaoliyu.us
+  type: hysteria2
+- name: 🇺🇸US_8|1.3MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
