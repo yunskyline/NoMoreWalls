@@ -53,52 +53,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: '!!str 21270a66'
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  xudp: true
-- name: 🇺🇸US_2|2.8MB/s
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|3.1MB/s
-  port: 8443
-  server: 45.150.164.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_4|3.2MB/s
-  network: none
-  port: 57933
-  server: 72.249.206.49
-  tls: false
-  type: vmess
-  uuid: c2f9731b-4978-4e22-9aab-fa699c4ae2ed
-- name: 🇺🇸US_5|1.9MB/s
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|1.7MB/s
+- name: 🇺🇸US_2|3.0MB/s
   password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
   port: '443'
   server: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
@@ -107,30 +62,6 @@ proxies:
   tls: true
   type: http
   username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-- name: 🇺🇸US_7|1.0MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-- name: 🇺🇸US_8|3.6MB/s
-  password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-  port: 443
-  server: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
-  sni: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-- name: 🇺🇸US_9|1.1MB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|3.0MB/s
-  port: 2020
-  server: 154.51.41.113
-  type: socks5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130

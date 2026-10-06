@@ -202,13 +202,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🛠️38@oneclickvpnkeys
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.127.136
-  sni: hop-germany-september.dynuddns.com
-  tls: false
-  type: hysteria2
 - name: کانال تلگرام ما ange1Vpn@
   obfs: salamander
   obfs-password: 7y0p9k93w7ryw8tz
@@ -269,16 +262,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇫🇷@FreakConfig
-  obfs: salamander
-  obfs-password: ec66908dbc46e6920143d9b684adf277
-  password: ca78f919e6
-  port: 11592
-  server: 155.94.134.183
-  skip-cert-verify: false
-  sni: srv-3fc7c9.21freedom.net
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: '@V2raySaman #1'
@@ -291,12 +274,32 @@ proxies:
   sni: srv-3fc7c9.21freedom.net
   tls: false
   type: hysteria2
-- name: 🦜15@oneclickvpnkeys
+- name: ✅  @vistav2ray  👈👈کانال ما ✅
+  obfs: salamander
+  obfs-password: ec66908dbc46e6920143d9b684adf277
+  password: ca78f919e6
+  port: 11592
+  server: 155.94.134.183
+  skip-cert-verify: false
+  sni: srv-3fc7c9.21freedom.net
+  tls: false
+  type: hysteria2
+- name: 🐞34@oneclickvpnkeys
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
   password: capadm96216165
   port: 443
   server: 208.69.78.217
+  skip-cert-verify: true
+  sni: vpn.local
+  tls: false
+  type: hysteria2
+- name: 🐞33@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+  password: capadmbd5f18bd
+  port: 443
+  server: 51.77.217.70
   skip-cert-verify: true
   sni: vpn.local
   tls: false
@@ -319,6 +322,14 @@ proxies:
   server: 2.27.59.206
   skip-cert-verify: false
   sni: de1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- name: 🇫🇮188294 | ⚡️Telegram = t.me/S...
+  password: d402d4c0b8354a90b70bb2566dce9a08
+  port: 8443
+  server: i.wareznet.ru
+  skip-cert-verify: false
+  sni: i.wareznet.ru
   tls: false
   type: hysteria2
 - name: '@ICV2RAY #1'
@@ -369,18 +380,11 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 🛠️15@oneclickvpnkeys
+- name: 🐞31@oneclickvpnkeys
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
-  server: 77.74.123.104
+  server: 77.74.123.98
   skip-cert-verify: true
-  sni: grape-test-italy.dynuddns.net
-  tls: false
-  type: hysteria2
-- name: 🛠️13@oneclickvpnkeys
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.105
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
@@ -717,75 +721,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: '21270a66'
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  xudp: true
-- name: 🇺🇸US_2|2.8MB/s
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|3.1MB/s
-  port: 8443
-  server: 45.150.164.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_4|3.2MB/s
-  network: none
-  port: 57933
-  server: 72.249.206.49
-  tls: false
-  type: vmess
-  uuid: c2f9731b-4978-4e22-9aab-fa699c4ae2ed
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_1|2.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.36.178.160
-  type: ss
-  udp: true
-- name: 🇸🇬SG_1|1.6MB/s
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1023
-  server: s0gmq6hn.zf-mix.9999231.xyz
-  skip-cert-verify: true
-  sni: sg-sjy.9999231.xyz
-  type: anytls
-  udp: true
-- name: 🇨🇭CH_1|1.4MB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_5|1.9MB/s
+- name: 🇸🇪SE_1|1.1MB/s
   password: None
   port: 443
-  server: mmgr.club
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_11|1.7MB/s
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷FR_1|2.0MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
+- name: 🇺🇸US_2|3.0MB/s
   password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
   port: '443'
   server: 31cebf36-t9zts0-tq9o8d-1d3bw.sj.oshuawei.com
@@ -794,85 +746,21 @@ proxies:
   tls: true
   type: http
   username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-- name: 🇺🇸US_7|1.0MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-- name: 🇺🇸US_8|3.6MB/s
-  password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-  port: 443
-  server: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
-  sni: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-- name: 🇺🇸US_9|1.1MB/s
-  port: 443
-  server: 12.202.180.10
+- name: 🇳🇴NO_1|1.9MB/s
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1028
+  server: jxwvps2b.zf-mix.9999231.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|3.0MB/s
-  port: 2020
-  server: 154.51.41.113
-  type: socks5
-- name: 🇭🇷HR_1|1.8MB/s
-  port: 443
-  server: 154.47.29.174
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 🇰🇷KR_1|5.4MB/s
-  network: grpc
-  port: '10047'
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: kr2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
+  sni: no-wy.9999231.xyz
+  type: anytls
   udp: true
-  uuid: 58C828CD-3EBA-46F9-B297-16003D7A6E68
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 🇰🇷KR_2|4.5MB/s
-  network: grpc
-  port: '10047'
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: kr2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_2|1.1MB/s
+  password: amazonskr05
+  port: '443'
+  server: 35.180.75.226
+  type: ss
   udp: true
-  uuid: 58c828cd-3eba-46f9-b297-16003d7a6e68
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 🇰🇷KR_3|4.8MB/s
-  network: grpc
-  port: '10047'
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '686c0ef0'
-  server: kr2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 745A6079-6A61-423D-BDD9-B344C1D26E62
-  xudp: true
 - name: NL_speednode_0004
   port: 9002
   server: 84.17.47.125

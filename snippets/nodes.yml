@@ -374,19 +374,10 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_4|3.2MB/s
-  network: none
-  port: 57933
-  server: 72.249.206.49
-  tls: false
-  type: vmess
-  uuid: c2f9731b-4978-4e22-9aab-fa699c4ae2ed
 - cipher: aes-256-cfb
-  name: 🇫🇷FR_1|2.3MB/s
+  name: 🇫🇷FR_2|1.1MB/s
   password: amazonskr05
-  port: 443
-  server: 13.36.178.160
+  port: '443'
+  server: 35.180.75.226
   type: ss
   udp: true
