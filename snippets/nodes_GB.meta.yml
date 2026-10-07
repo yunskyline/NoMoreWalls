@@ -1,17 +1,28 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|1.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 65d6SIYIqiX-SN4vx_BnNiQJ8Lnr0HAgUKoT7WgWRgI
-    short-id: '!!str ee169e93d3c277a1'
-  server: 193.202.113.5
-  servername: edge-uk2.mystatic-cdn.ru
+- name: 🇬🇧GB_1|2.6MB/s
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 6f756511-7fc3-41ba-874b-8cdc8e1b225f
-  xudp: true
+  type: http
+- name: 🇬🇧GB_2|1.8MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_3|2.4MB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- name: 🇬🇧GB_4|2.3MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
