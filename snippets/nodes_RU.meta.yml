@@ -9,13 +9,10 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 🇷🇺RU_1|1.0MB/s
-  port: 443
-  server: 82.147.71.46
+- name: 🇷🇺RU_1|1.8MB/s
+  password: BugFreeNet_BugFreeShell
+  port: '1081'
+  server: 188.127.251.1
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_2|2.1MB/s
-  port: 1080
-  server: 81.195.131.20
   type: socks5
+  username: BugFreeNet_BugFreeShell
