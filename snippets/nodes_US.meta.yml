@@ -54,40 +54,13 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - name: 🇺🇸US_1|1.1MB/s
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
   tls: true
   type: http
-- name: 🇺🇸US_2|1.5MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.7MB/s|S001-260618
-  password: ''
-  port: 8885
-  server: 38.79.114.43
-  skip-cert-verify: true
-  sub_tag: S001-260618
-  type: socks5
-  udp: true
-  username: ''
-- name: 🇺🇸US_4|1.3MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_5|1.0MB/s
-  port: 443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
