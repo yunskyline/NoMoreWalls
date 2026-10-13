@@ -37,16 +37,9 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|2.1MB/s
-  port: 9443
-  server: 152.233.9.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇬SG_2|1.5MB/s
-  password: '!!str 1234'
-  port: '2080'
-  server: 13.212.55.110
-  skip-cert-verify: true
-  type: http
-  username: '1234'
+- cipher: aes-128-gcm
+  name: 🇸🇬SG_1|4.7MB/s
+  password: 85590bd2-807b-49b9-af20-1101c18b9eda
+  port: 40022
+  server: ruot.ayucloudservices.nl
+  type: ss
