@@ -1,39 +1,94 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国|@ripaojiedian
+- name: '🇰🇷[www.v2nodes.com] vless-KR-3... #1'
   network: ws
-  port: 443
-  server: 8nTzyR5KNivfabaT.v.3dns.vip
-  servername: 8nTzyR5KNivfabaT.v.3dns.vip
-  skip-cert-verify: false
+  port: 8443
+  server: 64.110.79.66
+  servername: fs.qicai99.com
   tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  type: vless
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   ws-opts:
     headers:
-      Host: 8nTzyR5KNivfabaT.v.3dns.vip
-    path: /ws-vmess
-- name: 韩国|@ripaojiedian
-  network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 11171
-  server: 63182sh8-4d7b.aws-agent.net
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇰🇷 韩国 | KOR #1'
-  network: http
-  port: 443
-  server: 13.125.179.47
+      Host: fs.qicai99.com
+    path: /fp=chrome
+- name: '🇰🇷[www.v2nodes.com] vless-KR-1... #1'
+  network: ws
+  port: 25555
+  server: 152.69.226.63
   tls: false
   type: vless
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: '🇰🇷[www.v2nodes.com] vless-KR-3... #4'
+  network: ws
+  port: 8443
+  server: 64.110.79.66
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '🇰🇷 韩国 | KOR #1'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 3.36.109.202
+  type: ss
   udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- client-fingerprint: chrome
+  name: '🇰🇷 韩国 | KOR #2'
+  network: ws
+  port: 8443
+  server: 123.111.169.70
+  servername: v1n3.11676767.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: v1n3.11676767.xyz
+    path: /go.php/products
+- client-fingerprint: chrome
+  name: '🇰🇷 韩国 | KOR #3'
+  network: ws
+  port: 443
+  server: 131.186.16.166
+  servername: v1n3.11676767.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: v1n3.11676767.xyz
+    path: /picture/lessons
+- client-fingerprint: chrome
+  name: '🇰🇷 韩国 | KOR #4'
+  network: ws
+  port: 2096
+  server: 123.111.169.70
+  servername: v1n3.11676767.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: v1n3.11676767.xyz
+    path: /go.php/products
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  fingerprint: 89:61:86:FE:B2:0C:B7:40:31:87:A4:5F:F3:BD:5D:DC:8B:FB:DD:41:9D:77:9D:55:D7:86:18:9D:36:73:1A:69
+  name: '🇰🇷 韩国 | KOR #5'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 3.36.109.202
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
