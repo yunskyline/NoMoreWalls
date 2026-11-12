@@ -27,15 +27,10 @@ proxies:
   password: f426d3c9-fb43-43c0-868b-898dfa451a74
   port: 443
   server: 121.127.33.130
+  skip-cert-verify: false
   sni: likejennie.pages.dev
   type: trojan
   ws-opts:
     headers:
       Host: likejennie.pages.dev
     path: '%2F'
-- name: '🇸🇪[www.v2nodes.com] trojan-SE-... #2'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 70.34.207.14
-  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
-  type: trojan
