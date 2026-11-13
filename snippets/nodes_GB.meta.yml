@@ -1,5 +1,31 @@
 proxies:
-- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #5'
+- client-fingerprint: chrome
+  name: '🇬🇧 英国 | GBR #2'
+  network: ws
+  port: 443
+  server: 146.75.59.186
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
+  ws-opts:
+    headers:
+      Host: ukoijji.global.ssl.fastly.net
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #4'
+  network: ws
+  port: 50818
+  server: 34.39.80.57
+  servername: yingguo.rymaker.cn
+  tls: true
+  type: vless
+  uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
+  ws-opts:
+    path: /GunService
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #8'
   port: 8443
   server: node-uk.connectsuite.org
   servername: node-uk.connectsuite.org
@@ -54,53 +80,21 @@ proxies:
   port: 7001
   server: 94.156.250.148
   type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧[www.v2nodes.com] ss-GB-9184...
-  password: shadowsocks
+- name: 🇬🇧GB_1|2.2MB/s|R002-260618
   port: 443
-  server: 141.98.101.181
-  type: ss
-- name: 🇬🇧GB_1|2.1MB/s
-  password: None
-  port: 443
-  server: 185.164.138.156
+  server: 212.102.63.1
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.2MB/s|P002-260618
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  sub_tag: P002-260618
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇬🇧GB_3|1.5MB/s
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|2.8MB/s
-  password: None
+- name: 🇬🇧GB_2|2.3MB/s|R002-260618
   port: 9443
-  server: 37.120.233.34
+  server: 84.233.178.33
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: '🇬🇧 英国 | GBR #1'
-  network: ws
-  port: 443
-  server: 146.75.59.186
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
   udp: true
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  ws-opts:
-    headers:
-      Host: ukoijji.global.ssl.fastly.net
-    path: /
+  x-toolall-mihomo: true

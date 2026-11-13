@@ -62,7 +62,7 @@ proxies:
     headers:
       Host: likejennie.pages.dev
     path: '%2F'
-- name: 🇸🇪SE_1|1.5MB/s|R002-260618
+- name: 🇸🇪SE_1|1.4MB/s|R002-260618
   port: 9443
   server: 146.70.242.146
   skip-cert-verify: true
@@ -71,9 +71,23 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇸🇪SE_2|1.4MB/s
-  port: 443
-  server: 79.142.77.63
+- cipher: 2022-blake3-aes-256-gcm
+  name: '🇸🇪 瑞典 | SWE #1'
+  password: SWePBmNSadMUzbm7GigoCTrCXr1vG/zUfYbBDaxk/VU=:jXzFNqqClbUWdzc1f4DSolu9VfjohvSJ+vP/Sj5eK0U=
+  port: 8080
+  server: 16.171.159.75
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '🇸🇪 瑞典 | SWE #2'
+  network: ws
+  port: 16751
+  server: 16.171.159.75
   skip-cert-verify: true
-  tls: true
-  type: http
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b2e2e5f-1302-4d65-ab39-27f6f0ca5562
+  ws-opts:
+    path: /

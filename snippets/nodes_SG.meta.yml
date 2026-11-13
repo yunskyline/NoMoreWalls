@@ -1,12 +1,37 @@
 proxies:
-- client-fingerprint: chrome
+- encryption: none
   name: 🇸🇬[www.v2nodes.com] vless-SG-1...
+  network: ws
+  port: 8880
+  server: 216.24.57.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime28.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   port: 8443
   server: 207.148.124.12
   servername: www.bing.com
   tls: true
   type: vless
   uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
+- client-fingerprint: chrome
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #7'
+  network: ws
+  port: 2096
+  server: 139.162.27.96
+  servername: free-server.techsonic.dev
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
 - cipher: aes-256-gcm
   name: 🇸🇬[www.v2nodes.com] ss-SG-1616...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -56,58 +81,13 @@ proxies:
   server: 149.28.130.108
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_3|4.4MB/s
-  port: 443
-  server: 47.129.1.175
-  servername: www.shopify.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e0379de1-6712-4644-b41b-afde5fa30ad7
-  x-toolall-mihomo: true
-- auth: 8VPFWgN7mbwHWxTC
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
   name: '🇸🇬 新加坡 | SGP #2'
-  password: 8VPFWgN7mbwHWxTC
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: singapore.062888.xyz
+  server: 52.77.214.112
   skip-cert-verify: true
-  sni: www.microsoft.com
+  sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '🇸🇬 新加坡 | SGP #3'
-  network: ws
-  port: 2083
-  server: 104.18.35.86
-  servername: vlsovip.1d.mom
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlsovip.1d.mom
-    path: /fp=unsafe
-- name: 🇸🇬 新加坡 | SGP 4
-  network: ws
-  password: trojan
-  port: 8443
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: longwanghen.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: longwanghen.pages.dev
-    path: /
-- name: '🇸🇬 新加坡 | SGP #4'
-  password: trojan
-  port: 8443
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: longwanghen.pages.dev
-  type: trojan
