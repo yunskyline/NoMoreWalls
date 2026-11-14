@@ -1,5 +1,11 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 🇬🇧[www.v2nodes.com] ss-GB-1622...
+  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
+  port: 1353
+  server: 185.194.191.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 🇬🇧[www.v2nodes.com] ss-GB-1621...
   password: 8nrpt2il04ptci2j
   port: 8080

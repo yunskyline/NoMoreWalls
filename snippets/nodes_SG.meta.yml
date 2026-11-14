@@ -2,14 +2,16 @@ proxies:
 - encryption: none
   name: 🇸🇬[www.v2nodes.com] vless-SG-1...
   network: ws
-  port: 8880
-  server: 216.24.57.40
-  tls: false
+  port: 443
+  server: 143.42.66.91
+  servername: fs.qicai99.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   ws-opts:
     headers:
-      Host: vms.lifetime28.workers.dev
+      Host: fs.qicai99.com
     path: /
 - client-fingerprint: chrome
   name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
@@ -81,13 +83,43 @@ proxies:
   server: 149.28.130.108
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
-- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
-  name: '🇸🇬 新加坡 | SGP #2'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 52.77.214.112
+- name: '🇸🇬 新加坡 | SGP #1'
+  password: Z5lvhmLqSc
+  port: 48994
+  server: 173.234.15.84
   skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
+  sni: m.microsoft.com
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 2
+  password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
+  port: 23151
+  server: 45.192.198.230
+  skip-cert-verify: true
+  sni: buylite.music.apple.com
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 3
+  password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
+  port: 23152
+  server: 45.192.198.230
+  skip-cert-verify: true
+  sni: buylite.music.apple.com
+  type: anytls
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 4
+  password: 1caaeda2-7ea1-43c3-b2b6-f8c093a45993
+  port: 23150
+  server: 45.192.198.230
+  skip-cert-verify: true
+  sni: buylite.music.apple.com
+  type: anytls
+  udp: true
+- name: '🇸🇬 新加坡 | SGP #2'
+  password: Z5lvhmLqSc
+  port: 48994
+  server: matrix.phonicsindia.mobi
+  skip-cert-verify: true
+  sni: m.microsoft.com
+  type: trojan
+  udp: true
