@@ -5,18 +5,35 @@ proxies:
   port: 42878
   server: 23.230.52.119
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_10|2.9MB/s
-  network: ws
+- name: 美国4|@ripaojiedian
+  network: tcp
+  password: MiTiVPN
   port: 443
-  server: clash.ddm4.cn
-  tls: true
+  server: 167.82.76.27
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+- name: 美国5|@ripaojiedian
+  network: tcp
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_4|4.6MB/s
+  network: tcp
+  port: 443
+  server: 47.99.219.144
+  skip-cert-verify: false
+  tls: false
   type: vmess
   udp: true
-  uuid: d006ef4a-d235-4691-bf05-abbe0d14055c
-  ws-opts:
-    headers:
-      Host: clash.ddm4.cn
-    path: /vmess
-  x-toolall-mihomo: true
+  uuid: 291b5d4a-19ee-4f22-91df-4dc43850b970
+  xudp: true
