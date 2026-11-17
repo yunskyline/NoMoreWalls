@@ -1,6 +1,20 @@
 proxies:
+- client-fingerprint: unsafe
+  encryption: none
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #1'
+  network: ws
+  port: 443
+  server: 45.153.245.181
+  servername: jp3.yohototo.top
+  tls: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
 - client-fingerprint: chrome
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #3'
   network: ws
   port: 443
   server: 46.250.248.210
@@ -12,35 +26,18 @@ proxies:
     headers:
       Host: fs.qicai99.com
     path: /
-- client-fingerprint: firefox
-  encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #3'
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
   network: ws
   port: 443
-  server: 104.21.70.228
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
+  server: 46.250.248.210
+  servername: fs.qicai99.com
   tls: true
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   ws-opts:
     headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
-  network: ws
-  port: 11424
-  server: 38.47.96.220
-  servername: notls.lukongtou.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
-  ws-opts:
-    headers:
-      Host: notls.lukongtou.eu.org
-    path: Telegram-WangCai2🇨🇳
+      Host: fs.qicai99.com
+    path: /fp=chrome
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
   password: BeaUf9c0AEWH40Pu
@@ -58,12 +55,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 149.22.87.240
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-9223...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
   type: ss
 - name: 日本2|@ripaojiedian
   network: tcp

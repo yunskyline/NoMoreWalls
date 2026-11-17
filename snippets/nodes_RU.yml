@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 🇷🇺[www.v2nodes.com] ss-RU-1617...
-  password: 8722de56b6c0b3f6a4d01cf91c07e6aa
-  port: 13108
-  server: 38.60.223.125
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺[www.v2nodes.com] ss-RU-1163...
   password: VVlAff77CnAU43Aoc5j15Y
