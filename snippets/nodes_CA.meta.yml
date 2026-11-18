@@ -41,7 +41,7 @@ proxies:
       Host: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
     path: /?ed=2560fp=chrome
 - encryption: none
-  name: '🏳[www.v2nodes.com] vless- #17'
+  name: '🏳[www.v2nodes.com] vless- #15'
   network: ws
   port: 8080
   server: 104.26.13.31
@@ -152,12 +152,14 @@ proxies:
   server: 216.152.147.93
   sni: connectingpeoplewithgreatjobs.com
   type: trojan
-- name: 🇨🇦CA_1|1.0MB/s|P002-260618
-  port: 9443
-  server: 198.44.142.27
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇨🇦 加拿大 | CAN
+  password: 604a12cd-c3d0-4ed9-a657-b80d0a397fce
+  port: 30013
+  server: cu.dns-node000.com
   skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
+  sni: aw-ca1.dns-node003.com
+  type: anytls
   udp: true
-  x-toolall-mihomo: true

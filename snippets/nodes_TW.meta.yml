@@ -12,3 +12,14 @@ proxies:
     headers:
       Host: ty986gfazs.cainiaohub.xyz
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇹🇼 🇨🇳 台湾 | TWN
+  password: 604a12cd-c3d0-4ed9-a657-b80d0a397fce
+  port: 30009
+  server: cm.dns-node000.com
+  skip-cert-verify: true
+  sni: cm.dns-node003.com
+  type: anytls
+  udp: true
