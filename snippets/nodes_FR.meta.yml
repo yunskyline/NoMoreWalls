@@ -44,12 +44,6 @@ proxies:
   server: 51.83.61.102
   type: ss
 - cipher: aes-256-gcm
-  name: 🇫🇷[www.v2nodes.com] ss-FR-1616...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 23.162.152.22
-  type: ss
-- cipher: aes-256-gcm
   name: 🇫🇷[www.v2nodes.com] ss-FR-1615...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -59,43 +53,66 @@ proxies:
   name: '🇫🇷[www.v2nodes.com] ss-FR-1615... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 167.17.64.27
+  server: 172.99.189.142
   type: ss
 - cipher: aes-256-gcm
   name: '🇫🇷[www.v2nodes.com] ss-FR-1615... #2'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 172.99.189.142
+  server: 167.17.64.175
   type: ss
 - cipher: aes-256-gcm
   name: '🇫🇷[www.v2nodes.com] ss-FR-1615... #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 167.17.64.175
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇫🇷[www.v2nodes.com] ss-FR-1615... #4'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
   server: 167.17.64.22
   type: ss
+- name: 🇫🇷FR_1|1.2MB/s|R002-260618
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇫🇷FR_2|1.5MB/s|R002-260618
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
 - alpn:
   - h2
-  - h3
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇫🇷 法国 | FRA #1'
-  network: xhttp
-  port: 443
-  server: 160.123.255.172
-  servername: mama147.baklajann.ru
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vlgrpc
+  name: 🇫🇷 法国 | FRA
+  network: grpc
+  port: 8443
+  server: 144.31.214.68
+  servername: kk-fr2-21468.testkknegr.online
   tls: true
   type: vless
   udp: true
-  uuid: 003ec416-45f0-462a-8030-016fe0a71703
-  xhttp-opts:
-    mode: auto
-    path: /
+  uuid: 12910384-1ef8-40a3-818a-57277063ea66
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇫🇷 法国 | FRA #1'
+  network: grpc
+  port: 8443
+  server: 144.31.214.68
+  servername: kk-fr2-21468.testkknegr.online
+  tls: true
+  type: vless
+  uuid: 12910384-1ef8-40a3-818a-57277063ea66
 - name: FR_speednode_0008
   port: 19362
   server: 51.159.225.197
