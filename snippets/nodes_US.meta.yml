@@ -7,38 +7,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: ' 🇺🇸 15@exclavevpn'
-  password: yO8pug5XmwkBXBAjleYIaVt
-  port: 443
-  server: 192.255.152.147
-  skip-cert-verify: true
-  sni: 192.255.152.147
-  tls: false
-  type: hysteria2
-- name: 🇺🇸[www.v2nodes.com] vless-US-1...
-  network: ws
-  port: 443
-  server: sajed.kdns.fr
-  tls: false
-  type: vless
-  uuid: 8e40cd7b-ce15-4887-8fe2-0af534a941a2
-  ws-opts:
-    headers:
-      Host: sajed.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #5'
-  network: ws
-  port: 443
-  server: 199.232.78.160
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸[www.v2nodes.com] ss-US-1620...
   password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
@@ -49,13 +17,49 @@ proxies:
   name: 🇺🇸[www.v2nodes.com] ss-US-1616...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 38.91.107.188
+  server: 149.40.57.134
   type: ss
 - cipher: aes-256-gcm
   name: '🇺🇸[www.v2nodes.com] ss-US-1616... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
+  server: 38.91.107.188
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1616... #2'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
   server: 23.150.152.38
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1616... #3'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 167.88.63.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1615...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 162.251.62.31
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1615... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 137.184.89.151
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1615... #2'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.22.17.129
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1612...
+  password: DZRy4Q3QH0jUGfKFl2jDCZ
+  port: 28960
+  server: 138.197.89.234
   type: ss
 - name: 美国4|@ripaojiedian
   network: tcp
@@ -75,24 +79,80 @@ proxies:
   sni: ssl.fastly.com
   type: trojan
   udp: true
-- client-fingerprint: random
-  encryption: none
-  name: 🇺🇸US_1|4.7MB/s
+- alterId: 64
+  cipher: auto
+  name: '🇺🇸 美国 | USA #1'
   network: ws
+  port: 30004
+  server: 192.74.236.148
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.91334565.xyz
+    path: /path/1733477783705
+- name: 🇺🇸US_2|1.3MB/s
   port: 443
-  server: ct.877774.xyz
-  servername: us-lax.862400.xyz
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_3|3.3MB/s
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- name: 🇺🇸US_4|3.3MB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: random
+  name: 🇺🇸US_5|1003KB/s
+  network: ws
+  port: 8443
+  server: 104.18.15.19
+  servername: hk.zhaoqing.city
   tls: true
   type: vless
   udp: true
-  uuid: d38b03c3-ff14-4ee0-80de-cd089f84ee38
+  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
   ws-opts:
     headers:
-      Host: us-lax.862400.xyz
+      Host: hk.zhaoqing.city
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /announcement?ed=2048
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
   xudp: true
+- name: 🇺🇸US_6|3.4MB/s
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 443
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+- name: 🇺🇸US_7|2.9MB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|2.0MB/s
+  port: 9443
+  server: 152.233.50.145
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - h2
   client-fingerprint: firefox
@@ -108,171 +168,53 @@ proxies:
   type: vless
   udp: true
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #2'
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #3'
   network: ws
   port: 443
-  server: 87.242.94.49
-  servername: radio-prichal.online
+  server: 8.39.125.213
+  servername: whitecreeper.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
-  ws-opts:
-    path: /checkout/step/TweBulkxumU_
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #1'
-  network: ws
-  port: 8443
-  server: 172.67.75.194
-  servername: c7dabe95.proxy-978.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
   ws-opts:
     headers:
-      Host: c7dabe95.proxy-978.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #2'
-  network: ws
-  port: 8443
-  server: 94.183.232.234
-  servername: v2n5.11676767.xyz
-  tls: true
-  type: vless
+      Host: whitecreeper.pages.dev
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+- name: 🇺🇸 美国 | USA 4
+  password: 0324fbc29561
+  port: 443
+  server: sdf65h46wr.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: v2n5.11676767.xyz
-    path: /doujin/channels/cb
-- encryption: mlkem768x25519plus.native.0rtt.jBZbmkgY90BVK1aIyJu5VvLA9lyGsIUMonmRnxJD8NWRudiZ5llyrDKLYpfArQdsGWpZ2JGkXwJxuZEK-_F4uCC9Gcth_PphfxQPi5kydSJvesqCRrDFzYMpzfpEcMSeM4l7z7O9zKTGiYuEXStjWmJOW3pw4gdKg0DALApQu4W1zVExUld6DeG7ouREdpGpw-ygmjqwrzaJDEqa55ZfwQRGgbUz6SdQpgCT5jBCF7gQzzGnLuVt8xpsGRW1CSUCT0G9dmEsCgYtA8WTvlFTVCQ0Y9yylYAAkgBhoQUNgVA_C6MABjVNjHtoT3oGYoeNNARS2lmh86UkZvgBhmMNLasxJ9upPfHMGvmYpfoKCTYJuZgl5Fg9bmWfaVYdgfAyWwPIPIN6cbF9EGYGileIvbZwXBx8p7Zyj2rKk-F7OJw-tHg_21NBAPMtzuHPZzmUjvaP8kKQUpuKu5xy3fxyW0VFjanK7MnCpvfJ4Oe3vYUAQnFxlaRRFwA9S7HIxHSBLaEaDDAskYV3ICZMh_QIg9fPfzkqe2dATdYB4edGpllF3mWAyYkJ4Kk4-kZlPstpPwhvHEW-_VYsc4p0OOBO69EX9aaLXMJhXlAbDcPJk_RukTW9myFe2RtfHYyN1rY1lKwQoCEnfJOyWNDCauJVe4k-XDJFStYn5paxUcVaOMxrKgqI0aew2qpB-1c0oETP7-Mh8_ZgPKvN_GCLceylAVpydhN-02vBzno07aBlZyqL4baWdmrDd3u_xTwynLxCRPKTe_ZiRImidlIS9ES1Q2sRr8Iajlutn_GUtFWI2EMwgaEXEfCOPBA-P_ElfGQXiogSqvsqEgBu0QthXmABQ9MoPidREqcVDDEWWYI_XPcVo7hzjLa4gpYlRLib8MO3HjK9ULWbaImem6mQZbxlrImK-DtfM0oUrtw8mFcQIhZtSpAe90Kx6ohe6Fo8QVcYKlNCR_RWJWtZGkibssFOzVI7XOmA4UW1LpnAPYzN2FTOcgQtaVzJW7mgWIpq-XGaxNSA8-Fdh7hgRnye82JuJXIxikqgB4kuaEh-UhtJdzs2jFVmFJO8b1EvffgbBtdXBbyb5eyspaR6BtUyO6EVUEO_6wskr7szhxWc2yc8O0Ge4RESvqpqNne6SFcWEpPPdclj4KAupBIyBEwk_XYSofCcVHpOFxmeZgOpLyKHF8IzRCUK2hDEROLOIUCgh9axHJWivwqxtsKktQVgx2weipqnmvhj7ItbCymvWgi8ndU6KVJAtKaNUCMA5iojgGKoKgVII-Y6TaU3BAcaYdl9p1BLr4awr9OslliPLPNzxuVBuNySGkJWFLkVeHpW_SYS0oJj3QwboyGGooJVJJykE4K_p9xBeEWR4ZJ9aii1oIwHkRijvBWnurUCRVAuFFYfWGIgHDuqz_xC4lYVLEA74UUHorpl6HZjNhWCEVJtZEUvxsem2XpQqPUt8Nxy5AwprAo9srMpWmegspyreEgCQ0s1ojqe9THOE1XKC3uwB6Y9rIITpBtbIwC4mIJeFcqPj5Napz6XpG7eqHsEy86tjD4z5pi8X7kvMUS5MplObQk
-  name: '🇺🇸 美国 | USA #3'
-  network: tcp
-  port: 18434
-  server: ryanserver.ir
+- name: '🇺🇸 美国 | USA #4'
+  network: ws
+  port: 80
+  server: 172.66.170.172
   tls: false
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: e081da45-9fae-4687-9376-f9a6a0dbbe83
   ws-opts:
     headers:
-      Host: ryanserver.ir
-    path: /
-- client-fingerprint: random
-  name: '🇺🇸 美国 | USA #4'
+      Host: e33xr.qzz.io
+    path: /id-amz
+- name: '🇺🇸 美国 | USA #5'
   network: ws
-  port: 8443
-  server: 104.18.15.19
-  servername: hk.zhaoqing.city
-  tls: true
+  port: 8080
+  server: 104.25.0.1
+  servername: nautica-cff.kloningstrife002.workers.dev
+  tls: false
   type: vless
   udp: true
-  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   ws-opts:
     headers:
-      Host: hk.zhaoqing.city
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-- client-fingerprint: random
-  name: '🇺🇸 美国 | USA #5'
-  network: ws
-  port: 8443
-  server: 104.18.14.19
-  servername: hk.zhaoqing.city
-  tls: true
-  type: vless
-  udp: true
-  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
-  ws-opts:
-    headers:
-      Host: hk.zhaoqing.city
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #6'
-  network: ws
-  port: 443
-  server: 38.175.200.121
-  servername: vip.freevpn.cloudns.biz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0bb8b560-b056-4245-8b9d-231a0a78c54b
-  ws-opts:
-    headers:
-      Host: vip.freevpn.cloudns.biz
-    path: /0bb8b560-b056-4245-8b9d-231a0a78c54b?ed=2048
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #7'
-  network: ws
-  port: 8443
-  server: www.visa.com
-  servername: hk.zhaoqing.city
-  tls: true
-  type: vless
-  udp: true
-  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
-  ws-opts:
-    headers:
-      Host: hk.zhaoqing.city
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #8'
-  network: ws
-  port: 443
-  server: 162.159.152.4
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  ws-opts:
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-    path: /fp=chrome
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #9'
-  network: ws
-  port: 2096
-  server: 104.19.46.190
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: rezanoori4295.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #10'
-  network: ws
-  port: 2083
-  server: 104.16.205.65
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: ahmad99hoseini.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #11'
-  network: ws
-  port: 443
-  server: 47.75.125.163
-  servername: edg-2oo.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: edg-2oo.pages.dev
-    path: /go.php/group?ed=2560
+      Host: nautica-cff.kloningstrife002.workers.dev
+    path: /138.2.74.219-28616
 - alpn:
   - h2
   client-fingerprint: firefox

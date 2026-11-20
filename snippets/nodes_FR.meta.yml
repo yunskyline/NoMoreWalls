@@ -1,19 +1,5 @@
 proxies:
-- encryption: none
-  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
-  network: ws
-  port: 443
-  server: 199.232.78.120
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  ws-opts:
-    headers:
-      Host: fraboijji.global.ssl.fastly.net.
-    path: /
-- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #3'
+- name: 🇫🇷[www.v2nodes.com] vless-FR-1...
   network: ws
   port: 14430
   server: 138.124.70.41
@@ -25,7 +11,7 @@ proxies:
     headers:
       Host: 138.124.70.41
     path: /vless
-- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #8'
+- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #3'
   network: ws
   port: 80
   server: ov-france1.09vpn.com
@@ -44,6 +30,12 @@ proxies:
   server: 51.83.61.102
   type: ss
 - cipher: aes-256-gcm
+  name: 🇫🇷[www.v2nodes.com] ss-FR-1616...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.162.152.22
+  type: ss
+- cipher: aes-256-gcm
   name: 🇫🇷[www.v2nodes.com] ss-FR-1615...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -53,30 +45,41 @@ proxies:
   name: '🇫🇷[www.v2nodes.com] ss-FR-1615... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 172.99.189.142
+  server: 167.17.64.27
   type: ss
 - cipher: aes-256-gcm
   name: '🇫🇷[www.v2nodes.com] ss-FR-1615... #2'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 167.17.64.175
+  server: 172.99.189.142
   type: ss
 - cipher: aes-256-gcm
   name: '🇫🇷[www.v2nodes.com] ss-FR-1615... #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
+  server: 167.17.64.175
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇫🇷[www.v2nodes.com] ss-FR-1615... #4'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
   server: 167.17.64.22
   type: ss
-- name: 🇫🇷FR_1|1.2MB/s|R002-260618
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  sub_tag: R002-260618
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|3.7MB/s
+  network: tcp
+  port: 443
+  server: 45.95.98.139
+  servername: 45.95.98.130
   tls: true
-  type: http
+  type: vless
   udp: true
-  x-toolall-mihomo: true
-- name: 🇫🇷FR_2|1.5MB/s|R002-260618
+  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
+- name: 🇫🇷FR_2|2.0MB/s|R002-260618
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
@@ -85,34 +88,16 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vlgrpc
-  name: 🇫🇷 法国 | FRA
-  network: grpc
-  port: 8443
-  server: 144.31.214.68
-  servername: kk-fr2-21468.testkknegr.online
+- name: 🇫🇷FR_3|2.8MB/s|P002-260618
+  password: None
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 12910384-1ef8-40a3-818a-57277063ea66
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇫🇷 法国 | FRA #1'
-  network: grpc
-  port: 8443
-  server: 144.31.214.68
-  servername: kk-fr2-21468.testkknegr.online
-  tls: true
-  type: vless
-  uuid: 12910384-1ef8-40a3-818a-57277063ea66
+  x-toolall-mihomo: true
 - name: FR_speednode_0008
   port: 19362
   server: 51.159.225.197
@@ -127,15 +112,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: FR_speednode_0010
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - name: FR_speednode_0011
   port: 23856
   server: 51.159.225.196
