@@ -1,16 +1,17 @@
 proxies:
-- name: 🇫🇷[www.v2nodes.com] vless-FR-1...
+- client-fingerprint: chrome
+  name: 🇫🇷[www.v2nodes.com] vless-FR-1...
   network: ws
-  port: 14430
-  server: 138.124.70.41
-  servername: 138.124.70.41
-  tls: false
+  port: 443
+  server: jdxl.cf.090227.xyz
+  servername: notified-rendered-moore-consideration.trycloudflare.com
+  tls: true
   type: vless
-  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  uuid: 11111111-2222-3333-4444-555555555555
   ws-opts:
     headers:
-      Host: 138.124.70.41
-    path: /vless
+      Host: notified-rendered-moore-consideration.trycloudflare.com
+    path: /tg-jiedianxielou
 - name: '🇫🇷[www.v2nodes.com] vless-FR-1... #3'
   network: ws
   port: 80
@@ -65,35 +66,21 @@ proxies:
   port: 19999
   server: 167.17.64.22
   type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|3.7MB/s
-  network: tcp
-  port: 443
-  server: 45.95.98.139
-  servername: 45.95.98.130
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
-- name: 🇫🇷FR_2|2.0MB/s|R002-260618
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇫🇷FR_3|2.8MB/s|P002-260618
+- name: 🇫🇷FR_1|1.2MB/s|P002-260618
   password: None
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇫🇷FR_2|1.2MB/s|R002-260618
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
@@ -112,6 +99,15 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: FR_speednode_0010
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - name: FR_speednode_0011
   port: 23856
   server: 51.159.225.196

@@ -7,59 +7,17 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1623...
+  password: EP/0kIjk18c43tfkqeJqdVQm8lGArteYkhhwgBJ3q70=
+  port: 50356
+  server: 161.153.38.61
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸[www.v2nodes.com] ss-US-1620...
   password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
   port: 42878
   server: 23.230.52.119
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1616...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 149.40.57.134
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1616... #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 38.91.107.188
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1616... #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 23.150.152.38
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1616... #3'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 167.88.63.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1615...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 162.251.62.31
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1615... #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 137.184.89.151
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1615... #2'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 38.22.17.129
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[www.v2nodes.com] ss-US-1612...
-  password: DZRy4Q3QH0jUGfKFl2jDCZ
-  port: 28960
-  server: 138.197.89.234
   type: ss
 - name: 美国4|@ripaojiedian
   network: tcp
@@ -81,7 +39,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: '🇺🇸 美国 | USA #1'
+  name: '🇺🇸 美国 | USA #6'
   network: ws
   port: 30004
   server: 192.74.236.148
@@ -94,72 +52,49 @@ proxies:
     headers:
       Host: www.91334565.xyz
     path: /path/1733477783705
-- name: 🇺🇸US_2|1.3MB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_3|3.3MB/s
+- name: 🇺🇸US_2|1.7MB/s
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
   type: socks5
   username: u_rb1dba2
-- name: 🇺🇸US_4|3.3MB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /3x
+  name: 🇺🇸US_3|1.1MB/s
+  network: http
+  port: 2053
+  server: 192.204.58.87
+  type: vmess
   udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: random
-  name: 🇺🇸US_5|1003KB/s
+  uuid: 286a45bc-f3aa-4a2d-8e6e-21fb824d9eeb
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇷🇺 俄罗斯 | RUS #1'
   network: ws
-  port: 8443
-  server: 104.18.15.19
-  servername: hk.zhaoqing.city
+  port: 443
+  server: linen.filnex.baby
+  servername: cinderbrook.elvano.website
   tls: true
   type: vless
   udp: true
-  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
   ws-opts:
     headers:
-      Host: hk.zhaoqing.city
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-- name: 🇺🇸US_6|3.4MB/s
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 🇺🇸US_7|2.9MB/s
-  port: 443
-  server: 23.133.176.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|2.0MB/s
-  port: 9443
-  server: 152.233.50.145
-  skip-cert-verify: true
-  tls: true
-  type: http
+      Host: linen.filnex.baby
+    path: /api/de2/stream
 - alpn:
   - h2
   client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS
+  name: 🇷🇺 俄罗斯 | RUS 2
   network: grpc
   port: 443
   server: vps3.nemnogogo.com
@@ -168,59 +103,120 @@ proxies:
   type: vless
   udp: true
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #3'
-  network: ws
-  port: 443
-  server: 8.39.125.213
-  servername: whitecreeper.pages.dev
+- auth: 41edb44c8e
+  name: '🇷🇺 俄罗斯 | RUS #3'
+  password: 41edb44c8e
+  port: 11592
+  server: 103.88.243.142
+  skip-cert-verify: true
+  sni: srv-17e124.21freedom.net
+  tls: false
+  type: hysteria2
+- auth: 41edb44c8e
+  name: '🇷🇺 俄罗斯 | RUS #5'
+  password: 41edb44c8e
+  port: 11592
+  server: srv-17e124.21freedom.net
+  skip-cert-verify: true
+  sni: srv-17e124.21freedom.net
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - mmsc.vnet.mobi
+    method: GET
+    path:
+    - /3x
+  name: '🇺🇸 美国 | USA #1'
+  network: http
+  port: 52080
+  server: 192.204.58.87
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 700dc5c3-9b7b-4ac8-8ee5-010ca3d03789
+- client-fingerprint: firefox
+  name: '🇺🇸 美国 | USA #2'
+  network: tcp
+  port: 13443
+  server: 87.242.95.197
+  servername: inusa.champmoney.ru
   tls: true
   type: vless
   udp: true
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  uuid: 71bd5b95-4079-417e-a34f-386a07588105
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #3'
+  network: ws
+  port: 2053
+  server: 104.16.218.13
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   ws-opts:
     headers:
-      Host: whitecreeper.pages.dev
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-- name: 🇺🇸 美国 | USA 4
-  password: 0324fbc29561
+      Host: vf3uymn6bu20313tqlfvws58mnqrhxxi.pages.dev
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: edge
+  name: '🇺🇸 美国 | USA #4'
+  network: xhttp
   port: 443
-  server: sdf65h46wr.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: '🇺🇸 美国 | USA #4'
-  network: ws
-  port: 80
-  server: 172.66.170.172
-  tls: false
+  server: 104.20.21.111
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  tls: true
   type: vless
   udp: true
-  uuid: e081da45-9fae-4687-9376-f9a6a0dbbe83
-  ws-opts:
-    headers:
-      Host: e33xr.qzz.io
-    path: /id-amz
-- name: '🇺🇸 美国 | USA #5'
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  xhttp-opts:
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+    mode: auto
+    path: /api
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: '🇺🇸 美国 | USA #7'
   network: ws
-  port: 8080
-  server: 104.25.0.1
-  servername: nautica-cff.kloningstrife002.workers.dev
-  tls: false
+  port: 443
+  server: 181.36.229.212
+  servername: 1.proxy2.us.ci.
+  tls: true
   type: vless
   udp: true
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
   ws-opts:
     headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
-    path: /138.2.74.219-28616
+      Host: 1.proxy2.us.ci.
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #8'
+  network: ws
+  port: 2087
+  server: 104.17.136.102
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  ws-opts:
+    headers:
+      Host: rezanoori4295.pages.dev
+    path: /
 - alpn:
   - h2
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #1'
+  name: '🇷🇺 俄罗斯 | RUS #2'
   network: grpc
   port: 443
   server: vps3.nemnogogo.com
