@@ -6,16 +6,30 @@ proxies:
   server: 84.247.155.196
   type: ss
 - cipher: aes-128-gcm
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1291...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+- cipher: aes-128-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-9223...
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
+- name: '🇯🇵 日本 | JPN #1'
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: dg4.ianai.it.com
   skip-cert-verify: true
+  sni: dg4.ianai.it.com
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #3'
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 34745
+  server: win2loxfde0303.gggrelay.org
+  skip-cert-verify: true
+  sni: nu3rb.supertoolify.com
   type: trojan
   udp: true
