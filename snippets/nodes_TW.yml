@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW_1|4.8MB/s
+  network: ws
+  port: 16616
+  server: d1eyz.xiaoyan.io
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: '🇹🇼 🇨🇳 台湾 | TWN #1'
+  password: 5KdDtpoJI58OTsoG0PwEYunqB0mkAEDm
+  port: 30502
+  server: 161.114.15.215
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true

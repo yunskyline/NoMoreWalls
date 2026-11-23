@@ -1,15 +1,4 @@
 proxies:
-- name: 🇨🇦[www.v2nodes.com] vless-CA-1...
-  network: ws
-  port: 2052
-  server: 104.18.109.147
-  tls: false
-  type: vless
-  uuid: c29d39bd-92a4-45db-bb61-56013998617c
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
-    path: /Telegram-XV2ry2?ed=2048
 - cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1559...
   password: zDNVedRFPQexG9v
@@ -28,11 +17,23 @@ proxies:
   port: 5000
   server: 51.222.200.165
   type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1557...
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇦[www.v2nodes.com] ss-CA-1555...
   password: 575hiopq2h28yao6
   port: 8080
   server: 15.235.121.109
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1546...
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
   type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1545...
@@ -46,26 +47,40 @@ proxies:
   port: 445
   server: 51.222.12.127
   type: ss
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #3'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.152
+  type: trojan
 - name: '🇨🇦[www.v2nodes.com] trojan-CA-... #1'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.93
   sni: connectingpeoplewithgreatjobs.com
   type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #2'
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #5'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.74
+  type: trojan
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #6'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.79
   skip-cert-verify: false
   sni: blog.connectingpeoplewithgreatjobs.com
   type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #6'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.152
-  type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #5'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.74
-  type: trojan
+- client-fingerprint: chrome
+  name: '🇨🇦 加拿大 | CAN #1'
+  network: ws
+  port: 2083
+  server: 104.18.35.86
+  servername: vlsovip.1d.mom
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlsovip.1d.mom
+    path: /fp=unsafe

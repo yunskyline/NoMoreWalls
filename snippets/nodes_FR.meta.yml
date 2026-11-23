@@ -75,47 +75,15 @@ proxies:
   port: 19999
   server: 167.17.64.22
   type: ss
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_1|1.1MB/s
-  network: xhttp
+- name: 🇫🇷FR_1|1.6MB/s|R002-260618
   port: 443
-  server: 185.133.35.86
-  servername: mamafrance.baklajann.ru
+  server: 149.102.245.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: d795a9ec-5ed0-4309-ba6c-edc09b818669
-  xhttp-opts:
-    host: mamafrance.baklajann.ru
-    mode: auto
-    path: /
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-concurrency: '0'
-      max-connections: '4'
-  xudp: true
-- client-fingerprint: chrome
-  name: '🇫🇷 法国 | FRA #1'
-  network: ws
-  port: 443
-  server: 156.154.245.83
-  servername: v2n5.11676767.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: v2n5.11676767.xyz
-    path: /doujin/channels/cb
+  x-toolall-mihomo: true
 - name: FR_speednode_0007
   port: 6103
   server: 87.98.174.157
