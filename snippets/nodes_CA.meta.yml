@@ -1,4 +1,28 @@
 proxies:
+- name: 🇸🇬[www.v2nodes.com] vless-SG-9...
+  network: ws
+  port: 8080
+  server: www.gov.se
+  servername: www.gov.se
+  tls: false
+  type: vless
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  ws-opts:
+    headers:
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
+    path: /
+- name: 🇸🇬[www.v2nodes.com] vless-SG-3...
+  network: ws
+  port: 8080
+  server: 104.26.13.31
+  servername: ip.sb
+  tls: false
+  type: vless
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  ws-opts:
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+    path: /
 - cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1559...
   password: zDNVedRFPQexG9v
@@ -12,22 +36,10 @@ proxies:
   server: 51.79.85.185
   type: ss
 - cipher: aes-256-gcm
-  name: 🇨🇦[www.v2nodes.com] ss-CA-1558...
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 51.222.200.165
-  type: ss
-- cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1557...
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 51.222.136.236
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦[www.v2nodes.com] ss-CA-1555...
-  password: 575hiopq2h28yao6
-  port: 8080
-  server: 15.235.121.109
   type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1546...
@@ -47,12 +59,12 @@ proxies:
   port: 445
   server: 51.222.12.127
   type: ss
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #3'
+- name: 🇨🇦[www.v2nodes.com] trojan-CA-...
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.152
   type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #1'
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #3'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.93
@@ -63,24 +75,17 @@ proxies:
   port: 443
   server: 216.152.147.74
   type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #6'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.79
-  skip-cert-verify: false
-  sni: blog.connectingpeoplewithgreatjobs.com
-  type: trojan
 - client-fingerprint: chrome
   name: '🇨🇦 加拿大 | CAN #1'
   network: ws
   port: 2083
-  server: 104.18.35.86
-  servername: vlsovip.1d.mom
+  server: 172.67.69.86
+  servername: helloapps.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
   ws-opts:
     headers:
-      Host: vlsovip.1d.mom
-    path: /fp=unsafe
+      Host: helloapps.cc.cd
+    path: /

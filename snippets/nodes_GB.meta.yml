@@ -1,12 +1,12 @@
 proxies:
-- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #2'
   port: 8443
   server: node-uk.connectsuite.org
   servername: node-uk.connectsuite.org
   tls: true
   type: vless
   uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #4'
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
   network: ws
   port: 80
   server: 57.129.132.223
@@ -21,6 +21,12 @@ proxies:
   name: 🇬🇧[www.v2nodes.com] ss-GB-1616...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
+  server: 198.244.201.129
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇬🇧[www.v2nodes.com] ss-GB-1616... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
   server: 198.244.202.215
   type: ss
 - cipher: aes-256-gcm
@@ -28,12 +34,6 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 142.202.51.22
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇬🇧[www.v2nodes.com] ss-GB-1615... #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 38.114.120.221
   type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-1602...
@@ -47,11 +47,11 @@ proxies:
   port: 443
   server: 158.173.24.73
   type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧[www.v2nodes.com] ss-GB-9184...
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.181
+- cipher: aes-256-gcm
+  name: 🇬🇧[www.v2nodes.com] ss-GB-1247...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
   type: ss
 - cipher: aes-128-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-8004...
@@ -59,36 +59,30 @@ proxies:
   port: 443
   server: 141.98.101.178
   type: ss
-- http-opts:
-    headers:
-      Host:
-      - fast.com
-    method: GET
-    path:
-    - /
+- client-fingerprint: qq
   name: '🇬🇧 英国 | GBR #1'
-  network: http
+  network: tcp
   port: 443
-  server: 167.99.203.0
-  tls: false
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
+  tls: true
   type: vless
   udp: true
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
-- http-opts:
-    headers:
-      Host:
-      - fast.com
-    method: GET
-    path:
-    - /
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  ws-opts:
+    path: /
+- client-fingerprint: qq
   name: '🇬🇧 英国 | GBR #3'
-  network: http
+  network: tcp
   port: 443
-  server: 64.227.41.219
-  tls: false
+  server: 136.148.83.70
+  servername: aszbk-ru-78dc.my-fade.cloud
+  tls: true
   type: vless
   udp: true
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
+  uuid: 00000000-0000-0001-0000-000000000000
+  ws-opts:
+    path: /
 - name: GB_speednode_0008
   port: 443
   server: 212.102.63.31

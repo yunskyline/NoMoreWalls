@@ -1,32 +1,4 @@
 proxies:
-- name: ' 🇯🇵 20@exclavevpn'
-  password: gG1JyjbJgDmEMvdTgcD9wVOS
-  port: 443
-  server: 35.221.91.82
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 📗96@oneclickvpnkeys
-  password: oracle_hy2_pass_2026
-  port: 8443
-  server: 129.225.181.46
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇯🇵[www.v2nodes.com] vless-JP
-  network: ws
-  port: 443
-  server: 103.201.130.126
-  servername: tt-9nz.pages.dev
-  tls: true
-  type: vless
-  uuid: 39303679-4e68-4233-8def-8f4f9e48d611
-  ws-opts:
-    headers:
-      Host: tt-9nz.pages.dev
-    path: /item/favourites
 - encryption: none
   name: '🇯🇵[www.v2nodes.com] vless-JP-1... #1'
   network: ws
@@ -35,26 +7,6 @@ proxies:
   tls: false
   type: vless
   uuid: 4808e2ce-14f4-4f5e-b8f4-59fb92fffa09
-- client-fingerprint: unsafe
-  encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #2'
-  network: ws
-  port: 443
-  server: 43.170.8.95
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- cipher: aes-256-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  type: ss
 - cipher: aes-128-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-5141...
   password: shadowsocks
@@ -74,13 +26,13 @@ proxies:
   server: 149.22.87.241
   type: ss
 - name: 🇯🇵[www.v2nodes.com] trojan-JP-...
-  password: LDSLDq9XlM4-92pvTPOUuklMb99BLOCrdyejsupEca4
-  port: 17443
-  server: 156.246.93.237
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 34745
+  server: win2loxfde0303.gggrelay.org
   skip-cert-verify: true
-  sni: jpk.wentibuxiaobuda.xyz
+  sni: nu3rb.supertoolify.com
   type: trojan
-- name: 🇯🇵JP_2|2.3MB/s
+- name: 日本|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
@@ -89,41 +41,11 @@ proxies:
   sni: nu2rb.supertoolify.com
   type: trojan
   udp: true
-- name: 🇯🇵JP_3|1.4MB/s
-  port: 3001
-  server: 43.133.21.24
+- name: 🇯🇵 日本 | JPN
+  password: 10f65625-c1f9-4a14-bec5-c1cae15e6f8f
+  port: 57180
+  server: media.gosthk.site
   skip-cert-verify: true
-  type: socks5
-- alpn:
-  - h3
-  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  down: 200
-  name: 🇯🇵 日本 | JPN
-  obfs: salamander
-  obfs-password: e3ymhs6gbzptjysj
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: dg3rb.ianai.it.com
-  skip-cert-verify: true
-  sni: dg3rb.ianai.it.com
-  type: hysteria2
+  sni: media.gosthk.site
+  type: anytls
   udp: true
-  up: 100
-- name: '🇯🇵 日本 | JPN #4'
-  password: F3NzMNuYnG7akU2mSlBY
-  port: 8443
-  server: 193.123.160.109
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: trojan
-  udp: true
-- name: '🇯🇵 日本 | JPN #1'
-  obfs: salamander
-  obfs-password: salamander
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: dg3rb.ianai.it.com
-  skip-cert-verify: true
-  sni: dg3rb.ianai.it.com
-  tls: false
-  type: hysteria2
