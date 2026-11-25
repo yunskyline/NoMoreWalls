@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬[www.v2nodes.com] vless-SG-9...
+- name: 🇨🇦[www.v2nodes.com] vless-CA
   network: ws
   port: 8080
   server: www.gov.se
@@ -11,29 +11,29 @@ proxies:
     headers:
       Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
     path: /
-- name: 🇸🇬[www.v2nodes.com] vless-SG-3...
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #3'
   network: ws
-  port: 8080
-  server: 104.26.13.31
-  servername: ip.sb
-  tls: false
+  port: 8443
+  server: 172.64.154.113
+  servername: freeceshi6.frii.site
+  tls: true
   type: vless
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
   ws-opts:
     headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-    path: /
+      Host: freeceshi6.frii.site
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
 - cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1559...
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 51.222.141.125
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇨🇦[www.v2nodes.com] ss-CA-1559... #1'
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 51.79.85.185
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1558...
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.222.200.165
   type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1557...
@@ -62,30 +62,23 @@ proxies:
 - name: 🇨🇦[www.v2nodes.com] trojan-CA-...
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 216.152.147.152
-  type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #3'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
   server: 216.152.147.93
   sni: connectingpeoplewithgreatjobs.com
   type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #5'
+- name: 🏳[www.v2nodes.com] trojan-
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.74
   type: trojan
-- client-fingerprint: chrome
-  name: '🇨🇦 加拿大 | CAN #1'
-  network: ws
-  port: 2083
-  server: 172.67.69.86
-  servername: helloapps.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: helloapps.cc.cd
-    path: /
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.152
+  type: trojan
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #4'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.79
+  skip-cert-verify: false
+  sni: blog.connectingpeoplewithgreatjobs.com
+  type: trojan

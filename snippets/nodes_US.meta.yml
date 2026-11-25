@@ -5,6 +5,7 @@ proxies:
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 40055
   server: 154.40.49.216
+  skip-cert-verify: true
   sni: psstatic.cdn.bcebos.com
   tls: false
   type: hysteria2
@@ -14,6 +15,15 @@ proxies:
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 🇺🇸230629 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: 7922smqtd5qm70fu
+  password: 5ictxgawam84vgrp
+  port: 2098
+  server: 107.181.112.141
+  sni: 107.181.112.141
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
@@ -29,52 +39,94 @@ proxies:
     headers:
       Host: vless.cloudxzw2027.ccwu.cc
     path: /xzw
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[www.v2nodes.com] ss-US-1620...
-  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
-  port: 42878
-  server: 23.230.52.119
+- cipher: aes-256-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1551...
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 15.204.246.108
   type: ss
-- name: 🇺🇸US_1|1.8MB/s
-  password: fanvpn.net
+- cipher: aes-256-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1539...
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 15.204.247.124
+  type: ss
+- name: NN_speednode_0023
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: 104.233.178.179
-  servername: www.bing.com
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  server: usgp1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
   udp: true
-- name: 🇺🇸US_2|3.5MB/s
-  obfs: salamander
-  obfs-password: 6fltjteoyab7fjf1
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 40055
-  server: 64.118.154.18
-  servername: psstatic.cdn.bcebos.com
-  skip-cert-verify: true
-  sni: psstatic.cdn.bcebos.com
-  type: hysteria2
-  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alpn:
   - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS
-  network: grpc
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇷🇺 俄罗斯 | RUS #1'
+  network: xhttp
   port: 443
-  server: leviko-ru4448.shopingggg.ir
-  servername: vps3.nemnogogo.com
+  server: greenhouse.elvano.website
+  servername: greenhouse.elvano.website
   tls: true
   type: vless
   udp: true
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  xhttp-opts:
+    host: greenhouse.elvano.website
+    mode: auto
+    path: /api/de6/sync
+- client-fingerprint: firefox
+  name: '🇷🇺 俄罗斯 | RUS #3'
+  network: tcp
+  port: 443
+  server: 45.132.178.108
+  servername: ysbnggurlwwotbmkuf.fcloudservices.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-0001-0000-000000000000
+  ws-opts:
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇷🇺 俄罗斯 | RUS #4'
+  network: xhttp
+  port: 443
+  server: heatherfield.moltex.click
+  servername: heatherfield.moltex.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  xhttp-opts:
+    host: heatherfield.moltex.click
+    mode: auto
+    path: /api/de6/sync
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  name: '🇷🇺 俄罗斯 | RUS #5'
+  network: xhttp
+  port: 443
+  server: arbor.elvano.website
+  servername: arbor.elvano.website
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  xhttp-opts:
+    host: arbor.elvano.website
+    mode: auto
+    path: /api/de7/sync
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 2
+  name: 🇷🇺 俄罗斯 | RUS 6
   network: grpc
   port: 443
   server: 201.24.116.192
@@ -83,11 +135,28 @@ proxies:
   type: vless
   udp: true
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  name: '🇷🇺 俄罗斯 | RUS #7'
+  network: xhttp
+  port: 443
+  server: seaglass.gerqix.online
+  servername: seaglass.gerqix.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  xhttp-opts:
+    host: seaglass.gerqix.online
+    mode: auto
+    path: /api/de5/sync
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 3
+  name: 🇷🇺 俄罗斯 | RUS 8
   network: grpc
   port: 443
   server: 201.51.12.98
@@ -96,68 +165,60 @@ proxies:
   type: vless
   udp: true
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- cipher: 2022-blake3-chacha20-poly1305
-  name: '🇺🇸 美国 | USA #1'
-  password: 1KRWYoNOBU1OXV+dLChiRageSP9uIRY2wsJPieRC7kY=
-  port: 50356
-  server: 129.146.200.42
-  type: ss
-  udp: true
-- name: '🇺🇸 美国 | USA #2'
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 30178
-  server: zzfxgcp.mateflora.com
-  skip-cert-verify: true
-  sni: usbg1hkzf.hikigo.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #4'
-  network: ws
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇷🇺 俄罗斯 | RUS #9'
+  network: xhttp
   port: 443
-  server: 8.35.211.87
-  servername: go.iranfree.de5.net
+  server: wildflower.elvano.website
+  servername: wildflower.elvano.website
   tls: true
   type: vless
   udp: true
-  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
-  ws-opts:
-    headers:
-      Host: go.iranfree.de5.net
-    path: /
-- name: 🇺🇸 美国 | USA 5
-  password: 44b7e257-d326-4df1-8510-002acac96d93
-  port: 443
-  server: signal.lovehk.xyz
-  skip-cert-verify: true
-  sni: signal.lovehk.xyz
-  type: anytls
-  udp: true
-- name: 🇺🇸 美国 | USA 6
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  xhttp-opts:
+    host: wildflower.elvano.website
+    mode: auto
+    path: /api/de5/sync
+- name: 🇺🇸 美国 | USA
   password: 98c394b5-2a27-4be2-b5e5-0daab762c058
   port: 443
   server: signal.lovehk.xyz
   skip-cert-verify: true
   sni: signal.lovehk.xyz
   type: anytls
-  udp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #1'
-  network: grpc
-  port: 443
-  server: leviko-ru4448.shopingggg.ir
-  servername: vps3.nemnogogo.com
-  tls: true
+- name: '🇺🇸 美国 | USA #2'
+  network: ws
+  port: 80
+  server: www.hcaptcha.com
+  tls: false
   type: vless
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  uuid: 33ad0b97-01c5-48b0-8530-440b90e756aa
+  ws-opts:
+    headers:
+      Host: worker3.faniw6556.workers.dev
+    path: /ZSwEHuFy9lC7zgDp
+- name: 🇺🇸 美国 | USA 5
+  password: 0324fbc29561
+  port: 443
+  server: sdf65h46wr.df6h451rh.xin
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🇺🇸 美国 | USA #4'
+  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  port: 443
+  server: 47.85.227.36
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #2'
+  name: '🇷🇺 俄罗斯 | RUS #6'
   network: grpc
   port: 443
   server: 201.24.116.192
@@ -168,7 +229,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #3'
+  name: '🇷🇺 俄罗斯 | RUS #8'
   network: grpc
   port: 443
   server: 201.51.12.98
@@ -176,3 +237,10 @@ proxies:
   tls: true
   type: vless
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+- name: US_speednode_0027
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
