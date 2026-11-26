@@ -7,7 +7,15 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 🇸🇬[www.v2nodes.com] vless-SG
+- name: 🇸🇬SG-🚀@VPNine1
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 54.255.246.31
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '🇸🇬[www.v2nodes.com] vless-SG #1'
   network: ws
   port: 443
   server: 172.64.145.94
@@ -19,20 +27,60 @@ proxies:
     headers:
       Host: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
     path: /fp=chrome
-- name: '🇸🇬[www.v2nodes.com] vless-SG-3... #1'
+- alpn:
+  - h3
+  name: '🇸🇬[www.v2nodes.com] vless-SG #2'
   network: ws
-  port: 2083
-  server: 104.18.35.86
-  servername: vlsovip.1d.mom
+  port: 443
+  server: 27.50.48.6
+  servername: vless2-8vx.pages.dev
   tls: true
   type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   ws-opts:
     headers:
-      Host: vlsovip.1d.mom
-    path: /fp=unsafefp=chrome
+      Host: vless2-8vx.pages.dev
+    path: /fp=chrome
 - client-fingerprint: chrome
-  name: 🇸🇬[www.v2nodes.com] vless-SG-1...
+  name: '🇸🇬 新加坡 | SGP #4'
+  network: tcp
+  port: 443
+  server: free.server.darknetlk.com
+  servername: aka.ms
+  tls: true
+  type: vless
+  uuid: 076799f8-d922-4bf1-805d-e758e6eb925f
+  ws-opts:
+    headers:
+      Host: free.server.darknetlk.com
+    path: /
+- client-fingerprint: chrome
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  network: ws
+  port: 443
+  server: 172.64.146.181
+  servername: sg2-cdn.rip.lgbt
+  tls: true
+  type: vless
+  uuid: 366449c5-ac1e-4314-8142-27a6b1c8c0fb
+  ws-opts:
+    headers:
+      Host: sg2-cdn.rip.lgbt
+    path: /yn-3ba202c6491c
+- client-fingerprint: firefox
+  name: '🇸🇬 新加坡 | SGP #2'
+  network: ws
+  port: 8444
+  server: 213.183.45.23
+  servername: media.plumstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  ws-opts:
+    path: /ws
+- client-fingerprint: chrome
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #3'
   port: 8443
   server: 207.148.124.12
   servername: www.bing.com
@@ -62,6 +110,18 @@ proxies:
     headers:
       Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
     path: /Telegram-XV2ry2?ed=2048
+- name: 🇸🇬[www.v2nodes.com] vless-SG-3...
+  network: ws
+  port: 2083
+  server: 104.18.35.86
+  servername: vlsovip.1d.mom
+  tls: true
+  type: vless
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlsovip.1d.mom
+    path: /fp=unsafefp=chrome
 - name: 🇸🇬[www.v2nodes.com] vless-SG-2...
   network: ws
   port: 8080
@@ -74,19 +134,12 @@ proxies:
     headers:
       Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
     path: /
-- client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  network: ws
-  port: 443
-  server: kozel.cc.cd
-  servername: kozel.cc.cd
-  tls: true
-  type: vless
-  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
-  ws-opts:
-    headers:
-      Host: kozel.cc.cd
-    path: /118.151.222.66=17317
+- cipher: aes-256-gcm
+  name: 🇸🇬[www.v2nodes.com] ss-SG-1616...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 15.235.182.183
+  type: ss
 - cipher: aes-256-gcm
   name: 🇸🇬[www.v2nodes.com] ss-SG-1615...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -118,26 +171,36 @@ proxies:
   skip-cert-verify: false
   sni: exploredigitaljobplatformandfindonlinework.com
   type: trojan
-- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
-  name: '🇸🇬 新加坡 | SGP #1'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 54.151.145.5
+- name: '🇸🇬 新加坡 | SGP #5'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 23580
+  server: vd.fireduocc.com
   skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: '🇸🇬 新加坡 | SGP #4'
-  network: tcp
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- client-fingerprint: random
+  encryption: none
+  name: 🇸🇬SG_3|2.4MB/s
+  network: ws
   port: 443
-  server: free.server.darknetlk.com
-  servername: aka.ms
+  server: ct.877774.xyz
+  servername: ap-south.862400.xyz
   tls: true
   type: vless
-  uuid: 076799f8-d922-4bf1-805d-e758e6eb925f
+  udp: true
+  uuid: 201d6c87-5de6-4bda-973c-024129b228fb
   ws-opts:
     headers:
-      Host: free.server.darknetlk.com
-    path: /
+      Host: ap-south.862400.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /announcement?ed=2048
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '🇸🇬 新加坡 | SGP #3'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 13.212.197.116
+  type: ss
+  udp: true

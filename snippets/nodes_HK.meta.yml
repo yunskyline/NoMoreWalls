@@ -1,29 +1,17 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇭🇰[www.v2nodes.com] vless-HK
+  name: 🇭🇰[www.v2nodes.com] vless-HK-1...
   network: ws
   port: 443
-  server: 45.133.73.167
-  servername: zmxoo.de5.net
+  server: 185.200.64.124
+  servername: hkg.kkp.us.ci
   tls: true
   type: vless
-  uuid: 0fc0ded7-32b3-4e36-a623-6e7670225247
+  uuid: aff1b196-478c-425a-9403-7ea15d9aafdf
   ws-opts:
     headers:
-      Host: zmxoo.de5.net
-    path: /html/order/torrent
-- name: 🇭🇰[www.v2nodes.com] vless-HK-1...
-  network: ws
-  port: 443
-  server: 45.133.73.167
-  servername: zmxoo.de5.net
-  tls: true
-  type: vless
-  uuid: 0fc0ded7-32b3-4e36-a623-6e7670225247
-  ws-opts:
-    headers:
-      Host: zmxoo.de5.net
-    path: /html/order/torrentfp=chrome
+      Host: hkg.kkp.us.ci
+    path: /487e07e6-2930-4e71-99b3-6792e5909f16
 - cipher: aes-256-gcm
   name: 🇭🇰[www.v2nodes.com] ss-HK-1621...
   password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
@@ -48,45 +36,100 @@ proxies:
   sni: images.ctfassets.net
   type: anytls
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_1|2.2MB/s
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00736f0b-8715-45b7-888b-ced7aaa637bf
-  ws-opts:
-    headers:
-      Host: 71863cd408e0a1b6626012d168c0b94e.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #2'
-  network: ws
-  port: 44867
-  server: 47.244.120.197
+- name: '🇭🇰 香港 | HKG #4'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 16258
+  server: vd.fireduocc.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: v1-dy.ixigua.com
+  type: trojan
   udp: true
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /arki
-- name: 🇭🇰 香港 | HKG 3
-  password: 1ab804ed-fea9-4374-8d11-e6866495d8d0
-  port: 443
-  server: theme.lovehk.xyz
+- alpn:
+  - h2
+  fingerprint: e92e14cc89440045724a203d503279413602f1d42ffd6be388365fc5ee291063
+  name: 🇭🇰 香港 | HKG 5
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 12741
+  server: vc.fireduocc.com
   skip-cert-verify: true
-  sni: theme.lovehk.xyz
+  sni: ixigua.com
   type: anytls
   udp: true
+- name: '🇭🇰 香港 | HKG #5'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 12722
+  server: vd.fireduocc.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: '🇭🇰 香港 | HKG #6'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 31440
+  server: vd.fireduocc.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: '🇭🇰 香港 | HKG #8'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 24572
+  server: 2xp.fireduocc.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  fingerprint: e92e14cc89440045724a203d503279413602f1d42ffd6be388365fc5ee291063
+  name: 🇭🇰 香港 | HKG 11
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 12744
+  server: vc.fireduocc.com
+  skip-cert-verify: true
+  sni: ixigua.com
+  type: anytls
+  udp: true
+- name: '🇭🇰 香港 | HKG #10'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 22503
+  server: 2xp.fireduocc.com
+  skip-cert-verify: true
+  sni: i1.hdslb.com
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  fingerprint: e92e14cc89440045724a203d503279413602f1d42ffd6be388365fc5ee291063
+  name: 🇭🇰 香港 | HKG 13
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 12742
+  server: vc.fireduocc.com
+  skip-cert-verify: true
+  sni: dynamodb.ap-northeast-3.amazonaws.com
+  type: anytls
+  udp: true
+- auth: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  fingerprint: 92B9319CF229DD609571689FE91C8ACB5C329AC9D3F50A1A69A4972955D74F84
+  name: 🇭🇰 香港 | HKG
+  obfs: salamander
+  obfs-password: e41seVw1GIo2Il3PHcta-hJE1rQfHmS8
+  password: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  port: 6732
+  server: 103.219.195.136
+  skip-cert-verify: true
+  sni: download.smartone.com
+  type: hysteria2
+  udp: true
+- auth: ePPsH1bMFD
+  name: '🇭🇰 香港 | HKG #2'
+  password: ePPsH1bMFD
+  port: 50541
+  server: 23.141.172.229
+  skip-cert-verify: true
+  sni: is1-ssl.mzstatic.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港 | HKG #3'
@@ -103,3 +146,26 @@ proxies:
     headers:
       Host: bywxdhirqkjj8xaz.v.3dns.vip
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #9'
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    path: /arki
+- name: '🇭🇰 香港 | HKG #1'
+  obfs: salamander
+  obfs-password: salamander
+  password: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  port: 6732
+  server: 103.219.195.136
+  skip-cert-verify: true
+  sni: download.smartone.com
+  tls: false
+  type: hysteria2

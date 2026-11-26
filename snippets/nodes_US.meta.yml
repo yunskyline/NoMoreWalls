@@ -1,5 +1,5 @@
 proxies:
-- name: ' 🇺🇸 23@exclavevpn'
+- name: 🇺🇸 24@exclavevpn
   obfs: salamander
   obfs-password: re61ep4ancwplwh8
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -17,28 +17,45 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🇺🇸230629 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: 7922smqtd5qm70fu
-  password: 5ictxgawam84vgrp
-  port: 2098
-  server: 107.181.112.141
-  sni: 107.181.112.141
+- name: 🇺🇸231154 | ⚡️Telegram = t.me/L...
+  password: EelIYEc5ZR8RT6thWcK9ohYkp3bYZGcn
+  port: 28795
+  server: 137.175.93.155
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
   name: 🇺🇸[www.v2nodes.com] vless-US-1...
   network: ws
   port: 443
-  server: vless.cloudxzw2027.ccwu.cc
-  servername: vless.cloudxzw2027.ccwu.cc
+  server: 172.66.213.98
+  servername: us5-cdn.xyn.lgbt
   tls: true
   type: vless
-  uuid: 2f12e5b5-6ce7-47ab-88b9-6110c1a3fc60
+  uuid: 366449c5-ac1e-4314-8142-27a6b1c8c0fb
   ws-opts:
     headers:
-      Host: vless.cloudxzw2027.ccwu.cc
-    path: /xzw
+      Host: us5-cdn.xyn.lgbt
+    path: /yn-lax-fb366a66e8526ebc4a311464
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1620...
+  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  port: 42878
+  server: 23.230.52.119
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1560...
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 15.204.233.41
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1554...
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 15.204.247.244
+  type: ss
 - cipher: aes-256-gcm
   name: 🇺🇸[www.v2nodes.com] ss-US-1551...
   password: kDWvXYZoTBcGkC4
@@ -46,11 +63,41 @@ proxies:
   server: 15.204.246.108
   type: ss
 - cipher: aes-256-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1544...
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 15.204.246.132
+  type: ss
+- cipher: aes-256-gcm
   name: 🇺🇸[www.v2nodes.com] ss-US-1539...
   password: faBAoD54k87UJG7
   port: 2375
   server: 15.204.247.124
   type: ss
+- name: '🇦🇷 阿根廷 | ARG #1'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 33578
+  server: vss.fireduocc.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #5'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 22515
+  server: 2xp.fireduocc.com
+  skip-cert-verify: true
+  sni: i1.hdslb.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #6'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 22514
+  server: 2xp.fireduocc.com
+  skip-cert-verify: true
+  sni: i1.hdslb.com
+  type: trojan
+  udp: true
 - name: NN_speednode_0023
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
@@ -61,186 +108,153 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alpn:
   - h2
-  - http/1.1
   client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #1'
-  network: xhttp
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺 俄罗斯 | RUS
+  network: grpc
   port: 443
-  server: greenhouse.elvano.website
-  servername: greenhouse.elvano.website
+  server: vps3.nemnogogo.com
+  servername: vps3.nemnogogo.com
   tls: true
   type: vless
   udp: true
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  xhttp-opts:
-    host: greenhouse.elvano.website
-    mode: auto
-    path: /api/de6/sync
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
 - client-fingerprint: firefox
   name: '🇷🇺 俄罗斯 | RUS #3'
-  network: tcp
-  port: 443
-  server: 45.132.178.108
-  servername: ysbnggurlwwotbmkuf.fcloudservices.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-0001-0000-000000000000
-  ws-opts:
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇷🇺 俄罗斯 | RUS #4'
   network: xhttp
-  port: 443
-  server: heatherfield.moltex.click
-  servername: heatherfield.moltex.click
+  port: 2053
+  server: polarladder.com
+  servername: polarladder.com
   tls: true
   type: vless
   udp: true
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
   xhttp-opts:
-    host: heatherfield.moltex.click
+    host: polarladder.com
     mode: auto
-    path: /api/de6/sync
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: '🇷🇺 俄罗斯 | RUS #5'
-  network: xhttp
-  port: 443
-  server: arbor.elvano.website
-  servername: arbor.elvano.website
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  xhttp-opts:
-    host: arbor.elvano.website
-    mode: auto
-    path: /api/de7/sync
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 6
-  network: grpc
-  port: 443
-  server: 201.24.116.192
-  servername: vps3.nemnogogo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: '🇷🇺 俄罗斯 | RUS #7'
-  network: xhttp
-  port: 443
-  server: seaglass.gerqix.online
-  servername: seaglass.gerqix.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  xhttp-opts:
-    host: seaglass.gerqix.online
-    mode: auto
-    path: /api/de5/sync
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 8
-  network: grpc
-  port: 443
-  server: 201.51.12.98
-  servername: vps3.nemnogogo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #9'
-  network: xhttp
-  port: 443
-  server: wildflower.elvano.website
-  servername: wildflower.elvano.website
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  xhttp-opts:
-    host: wildflower.elvano.website
-    mode: auto
-    path: /api/de5/sync
-- name: 🇺🇸 美国 | USA
-  password: 98c394b5-2a27-4be2-b5e5-0daab762c058
-  port: 443
-  server: signal.lovehk.xyz
+    path: /api/v1/upload
+- auth: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  fingerprint: 464046AF716B289261814CC1442FE8EB81F2C1D723717A0898CDD52329D037DD
+  name: 🇺🇸 美国 | USA
+  obfs: salamander
+  obfs-password: f64jL_i5rRVOTgE4yTJq7dQiddzFzWCu
+  password: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  port: 6879
+  server: 107.173.34.201
   skip-cert-verify: true
-  sni: signal.lovehk.xyz
-  type: anytls
-- name: '🇺🇸 美国 | USA #2'
+  sni: download-porter.hoyoverse.com
+  type: hysteria2
+  udp: true
+- auth: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  fingerprint: E7AAA618C4A2B8F35FEB6F2AFFEB5A406D1084932F0CAD0055719A7C308CA5A0
+  name: 🇺🇸 美国 | USA 3
+  obfs: salamander
+  obfs-password: ac903aT6Pvrdl98VIuXun7o_3jsJY2OH
+  password: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  port: 6740
+  server: 192.227.225.158
+  skip-cert-verify: true
+  sni: download-porter.hoyoverse.com
+  type: hysteria2
+  udp: true
+- auth: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  fingerprint: FA6EC3C5EF2066C942C5BC2B2BF86A1F109668DD5152E1B77ABA6D9F781067EA
+  name: 🇺🇸 美国 | USA 7
+  obfs: salamander
+  obfs-password: nlKnGyYvM9ZJL4EZgUhdt1uDRsBFbhPG
+  password: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  port: 6701
+  server: 143.246.58.74
+  skip-cert-verify: true
+  sni: download-porter.hoyoverse.com
+  type: hysteria2
+  udp: true
+- name: '🇺🇸 美国 | USA #8'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 31678
+  server: vss.fireduocc.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #9'
   network: ws
-  port: 80
-  server: www.hcaptcha.com
-  tls: false
+  port: 443
+  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  tls: true
   type: vless
   udp: true
-  uuid: 33ad0b97-01c5-48b0-8530-440b90e756aa
+  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
   ws-opts:
     headers:
-      Host: worker3.faniw6556.workers.dev
-    path: /ZSwEHuFy9lC7zgDp
-- name: 🇺🇸 美国 | USA 5
-  password: 0324fbc29561
-  port: 443
-  server: sdf65h46wr.df6h451rh.xin
+      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+    path: /ffad70ffdfc3bcda
+- auth: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  fingerprint: C84FCFB2552516578F24B635C8058B6911B9FE43F342C79052FD26694D2504CB
+  name: 🇺🇸 美国 | USA 10
+  obfs: salamander
+  obfs-password: AMxV-L8rl2UaXjiqZACuP6M41ByoU5VL
+  password: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  port: 6652
+  server: 161.114.15.189
   skip-cert-verify: true
-  type: anytls
+  sni: download-porter.hoyoverse.com
+  type: hysteria2
   udp: true
-- cipher: 2022-blake3-chacha20-poly1305
-  name: '🇺🇸 美国 | USA #4'
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-  port: 443
-  server: 47.85.227.36
-  type: ss
-  udp: true
-- client-fingerprint: firefox
+- alpn:
+  - h2
+  client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #6'
+  name: '🇷🇺 俄罗斯 | RUS #1'
   network: grpc
   port: 443
-  server: 201.24.116.192
+  server: vps3.nemnogogo.com
   servername: vps3.nemnogogo.com
   tls: true
   type: vless
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #8'
-  network: grpc
-  port: 443
-  server: 201.51.12.98
-  servername: vps3.nemnogogo.com
-  tls: true
-  type: vless
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- name: US_speednode_0027
-  port: 443
-  server: 172.64.69.89
+- name: '🇺🇸 美国 | USA #1'
+  obfs: salamander
+  obfs-password: salamander
+  password: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  port: 6879
+  server: 107.173.34.201
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  sni: download-porter.hoyoverse.com
+  tls: false
+  type: hysteria2
+- name: '🇺🇸 美国 | USA #3'
+  obfs: salamander
+  obfs-password: salamander
+  password: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  port: 6740
+  server: 192.227.225.158
+  skip-cert-verify: true
+  sni: download-porter.hoyoverse.com
+  tls: false
+  type: hysteria2
+- name: '🇺🇸 美国 | USA #7'
+  obfs: salamander
+  obfs-password: salamander
+  password: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  port: 6701
+  server: 143.246.58.74
+  skip-cert-verify: true
+  sni: download-porter.hoyoverse.com
+  tls: false
+  type: hysteria2
+- name: '🇺🇸 美国 | USA #10'
+  obfs: salamander
+  obfs-password: salamander
+  password: 33096af5-fbb1-4302-909c-05f0955ad9f3
+  port: 6652
+  server: 161.114.15.189
+  skip-cert-verify: true
+  sni: download-porter.hoyoverse.com
+  tls: false
+  type: hysteria2

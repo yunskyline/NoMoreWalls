@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  type: ss
 - cipher: aes-128-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-5141...
   password: shadowsocks
@@ -23,10 +17,35 @@ proxies:
   port: 443
   server: 149.22.87.241
   type: ss
-- name: 🇯🇵[www.v2nodes.com] trojan-JP-...
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 34745
-  server: win2loxfde0303.gggrelay.org
+- name: '🇯🇵 日本 | JPN #1'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 22505
+  server: 2xp.fireduocc.com
   skip-cert-verify: true
-  sni: nu3rb.supertoolify.com
+  sni: i1.hdslb.com
   type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #2'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 13493
+  server: vss.fireduocc.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #3'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 21494
+  server: vss.fireduocc.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: '🇯🇵 日本 | JPN #4'
+  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
+  port: 32441
+  server: vss.fireduocc.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
