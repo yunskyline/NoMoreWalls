@@ -1,16 +1,25 @@
 proxies:
-- name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  network: ws
+  port: 443
+  server: 188.225.33.67
+  servername: e2.cdnwh.icu
+  tls: true
+  type: vless
+  uuid: b432a23a-acff-425c-bf69-70480cd6ed09
+  ws-opts:
+    headers:
+      Host: e2.cdnwh.icu
+    path: /stream/segment/3078a41dd7eb/
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
   port: 9543
   server: 146.103.43.70
   tls: false
   type: vless
   uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
-  port: 31652
-  server: 195.110.15.216
-  tls: false
-  type: vless
-  uuid: 2da03bdf-8af3-4207-96c7-d70e0dd22c36
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -52,52 +61,18 @@ proxies:
   tls: true
   type: vless
   uuid: 9000a7f3-df2a-49a8-ae56-3e7777bd32f7
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
-  port: 50955
-  server: 152.53.120.90
-  tls: false
-  type: vless
-  uuid: 5ab065b0-2c7a-45a0-829d-9af9af7d8e05
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: glush.de3.v1
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
-  network: grpc
-  port: 443
-  server: 5.129.253.99
-  servername: rookery.moltex.click
-  tls: true
-  type: vless
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #13'
-  network: ws
-  port: 443
-  server: cove.gerqix.online
-  servername: cove.gerqix.online
-  tls: true
-  type: vless
-  uuid: 83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e
-  ws-opts:
-    headers:
-      Host: cove.gerqix.online
-    path: /api/de6/stream
 - cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1624...
+  name: '🇩🇪 德国 | DEU #2'
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   port: 443
   server: 47.254.167.157
   type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1616...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 57.129.83.85
+  udp: true
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1608...
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  port: 443
+  server: 8.211.56.98
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪[www.v2nodes.com] ss-DE-1592...
@@ -105,39 +80,42 @@ proxies:
   port: 8388
   server: 57.129.113.16
   type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1247...
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  type: ss
+- name: '🏳[www.v2nodes.com] trojan- #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.78
+  type: trojan
 - alpn:
-  - h2
-  fingerprint: e92e14cc89440045724a203d503279413602f1d42ffd6be388365fc5ee291063
-  name: 🇩🇪 德国 | DEU 5
-  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
-  port: 36746
-  server: vc.fireduocc.com
-  skip-cert-verify: true
-  sni: v3-dy.ixigua.com
-  type: anytls
-  udp: true
-- auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: 🇩🇪DE_2|3.4MB/s
+  - h3
+  auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  name: 🇬🇧 英国 | GBR 2
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
-  server: 128.254.186.190
+  server: uk-tube-01.stre4m.net
   skip-cert-verify: true
   sni: mother-earth.fyi
+  type: hysteria2
+- auth: 030e421e-9317-4cb8-8fbe-a07a565ad3db
+  name: '🇳🇱 荷兰 | NLD #1'
+  password: 030e421e-9317-4cb8-8fbe-a07a565ad3db
+  port: 443
+  server: 4f070970.con.metricdraft.tech
+  skip-cert-verify: true
+  sni: 4f070970.con.metricdraft.tech
   tls: false
   type: hysteria2
-- name: US_speednode_0027
-  port: 443
-  server: 172.64.69.89
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_4|1.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: 13337
+  server: uk-tube-01.stre4m.net
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  sni: ''
+  type: hysteria2
+  up: ''
 - encryption: mlkem768x25519plus.native.0rtt.F4L-tzF4xZP8_exCC-za3YLuTJ7Jiya3scz-WVRnWjU
   name: 🇩🇪 德国 | DEU
   network: tcp
@@ -147,54 +125,35 @@ proxies:
   type: vless
   udp: true
   uuid: a6eed628-ef46-4eb1-b1c9-e13853e082c3
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #2'
-  network: ws
-  port: 443
-  server: 188.225.33.67
-  servername: e2.cdnwh.icu
-  tls: true
-  type: vless
-  udp: true
-  uuid: b432a23a-acff-425c-bf69-70480cd6ed09
-  ws-opts:
-    headers:
-      Host: e2.cdnwh.icu
-    path: /stream/segment/3078a41dd7eb/
-- client-fingerprint: firefox
+- encryption: mlkem768x25519plus.native.0rtt.F4L-tzF4xZP8_exCC-za3YLuTJ7Jiya3scz-WVRnWjU
   name: '🇩🇪 德国 | DEU #3'
-  network: xhttp
-  port: 443
-  server: 193.160.208.240
-  servername: 193.160.208.240
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
-  xhttp-opts:
-    mode: auto
-    path: /assets/twru01/
-- name: 🇩🇪 德国 | DEU 4
-  password: 9f662cd7-13d4-4571-82a6-9d8b613dad7c
-  port: 443
-  server: signal.frnhk.xyz
-  skip-cert-verify: true
-  sni: signal.frnhk.xyz
-  type: anytls
-  udp: true
-- name: '🇩🇪 德国 | DEU #1'
   network: tcp
   port: 443
   server: karen.shahankhan.ir
   tls: false
   type: vless
+  udp: true
   uuid: a6eed628-ef46-4eb1-b1c9-e13853e082c3
   ws-opts:
     headers:
-      Host: Karen.shahankhan.ir
+      Host: karen.shahankhan.ir
     path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #6'
+  network: ws
+  port: 443
+  server: bookend.filnex.baby
+  servername: ferncrest.gerqix.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
+  ws-opts:
+    headers:
+      Host: bookend.filnex.baby
+    path: /api/de1/stream
 - name: DE_speednode_0003
   password: None
   port: 443

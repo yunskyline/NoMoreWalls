@@ -14,14 +14,6 @@ proxies:
   tls: true
   type: vless
   uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #1'
-  port: 80
-  server: 57.129.132.223
-  tls: false
-  type: vless
-  uuid: dbb78c94-9f87-4d7d-b945-2000b60352fd
-  ws-opts:
-    path: /vless/
 - cipher: aes-256-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-1616...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -83,3 +75,17 @@ proxies:
   tls: true
   type: http
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇬🇧 英国 | GBR #1'
+  network: grpc
+  port: 443
+  server: 216.86.70.132
+  servername: nl18.plus-hit.ru
+  tls: true
+  type: vless
+  uuid: 379b1f28-8109-43bc-9317-8f1f24cdc85b

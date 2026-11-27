@@ -1,69 +1,38 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[www.v2nodes.com] ss-US-1620...
-  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
-  port: 42878
-  server: 23.230.52.119
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1560...
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 15.204.233.41
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1554...
-  password: pKEW8JPByTVTLtM
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 15.204.247.244
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1551...
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 15.204.246.108
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1544...
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 15.204.246.132
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1539...
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 15.204.247.124
-  type: ss
-- name: '🇦🇷 阿根廷 | ARG #1'
-  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
-  port: 33578
-  server: vss.fireduocc.com
-  skip-cert-verify: true
-  sni: v1-dy.ixigua.com
+  server: 167.88.61.52
+  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
   type: trojan
-  udp: true
-- name: '🇺🇸 美国 | USA #5'
-  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
-  port: 22515
-  server: 2xp.fireduocc.com
-  skip-cert-verify: true
-  sni: i1.hdslb.com
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.13
+  sni: blog.unlockyourfuturefindyourperfectcareer.com
   type: trojan
-  udp: true
-- name: '🇺🇸 美国 | USA #6'
-  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
-  port: 22514
-  server: 2xp.fireduocc.com
-  skip-cert-verify: true
-  sni: i1.hdslb.com
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #8'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.25
+  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
   type: trojan
-  udp: true
-- name: '🇺🇸 美国 | USA #8'
-  password: 209e77f0-cfbc-4361-a34d-75bb13a79895
-  port: 31678
-  server: vss.fireduocc.com
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #9'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.106
   skip-cert-verify: true
-  sni: v1-dy.ixigua.com
+  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸US_4|1.2MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.166
+  servername: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  skip-cert-verify: true
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  tls: true
   type: trojan
   udp: true
