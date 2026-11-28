@@ -1,6 +1,27 @@
 proxies:
+- name: '🇯🇵 日本 | JPN #1'
+  network: ws
+  port: 443
+  server: jllp.cf.877774.xyz
+  servername: jp.bbusxxxh.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  ws-opts:
+    headers:
+      Host: jp.bbusxxxh.top
+    path: /images
 - client-fingerprint: firefox
-  name: 🇯🇵[www.v2nodes.com] vless-JP-1...
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #1'
+  port: 443
+  server: 50.7.159.242
+  servername: jp.reddotcorp.org
+  tls: true
+  type: vless
+  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
+- client-fingerprint: firefox
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #2'
   network: ws
   port: 8463
   server: 213.183.41.31
@@ -10,6 +31,12 @@ proxies:
   uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
   ws-opts:
     path: /ws
+- cipher: aes-256-gcm
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1624...
+  password: '!!str 123456'
+  port: 5555
+  server: 47.245.40.193
+  type: ss
 - cipher: aes-128-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-5141...
   password: shadowsocks
@@ -17,32 +44,36 @@ proxies:
   server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1291...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+- cipher: aes-128-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-9223...
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
-- name: '🇯🇵 日本 | JPN #1'
-  password: 40a8a71b-91d3-4b63-9907-5e12ad2259c1
-  port: 20034
-  server: sclass-c2.catcat321.com
+- auth: Yuike2026cat
+  name: '🇯🇵 日本 | JPN #2'
+  password: Yuike2026cat
+  port: 8443
+  server: 43.130.234.128
   skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+  sni: 43-130-234-128.sslip.io
+  tls: false
+  type: hysteria2
+- name: '🇯🇵 日本 | JPN #3'
+  network: ws
+  port: 443
+  server: 651feae6.cloudflare.182682.xyz
+  servername: 33333.bpjp2027.top
+  tls: true
+  type: vless
   udp: true
-- name: '🇯🇵 日本 | JPN #2'
-  password: 83d0a320-0505-4f80-a238-7ceebfae8b8e
-  port: 20157
-  server: qlql-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: '🇳🇬 尼日利亚 | NGA #1'
-  password: 40a8a71b-91d3-4b63-9907-5e12ad2259c1
-  port: 20051
-  server: sclass-c2.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
+  uuid: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  ws-opts:
+    headers:
+      Host: 33333.bpjp2027.top
+    path: /images
